@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Activity_Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="sidenav" id="mySidenav">
+        <div class="h-nav">
+            <a href="#"><i class="ri-home-6-line"></i></a>
+            <a href="#"><i class="ri-delete-bin-6-line"></i></a>
+            <a href="javascript:void(0)"><i class="ri-close-line" style="font-size: 30px;" onclick="closeNav();myFunction();"></i></a>
+        </div>
+        <h4>Completed 0 of 110 Exercises:</h4>
+        <button class="dropdown-btn">HTML Attributes
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Attribute1s" onclick="reply_click(this.id)" id="Attribute1">Exercise 1</a>
+            <a href="#Attribute2s" onclick="reply_click(this.id)" id="Attribute2">Exercise 2</a>
+            <a href="#Attribute3s" onclick="reply_click(this.id)" id="Attribute3">Exercise 3</a>
+            <a href="#Attribute4s" onclick="reply_click(this.id)" id="Attribute4">Exercise 4</a>
+            <a href="#Attribute5s" onclick="reply_click(this.id)" id="Attribute5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Headings
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Heading1s" onclick="reply_click(this.id)" id="Heading1">Exercise 1</a>
+            <a href="#Heading2s" onclick="reply_click(this.id)" id="Heading2">Exercise 2</a>
+            <a href="#Heading3s" onclick="reply_click(this.id)" id="Heading3">Exercise 3</a>
+            <a href="#Heading4s" onclick="reply_click(this.id)" id="Heading4">Exercise 4</a>
+            <a href="#Heading5s" onclick="reply_click(this.id)" id="Heading5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Paragraphs
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Paragraph1s" onclick="reply_click(this.id)" id="Paragraph1">Exercise 1</a>
+            <a href="#Paragraph2s" onclick="reply_click(this.id)" id="Paragraph2">Exercise 2</a>
+            <a href="#Paragraph3s" onclick="reply_click(this.id)" id="Paragraph3">Exercise 3</a>
+            <a href="#Paragraph4s" onclick="reply_click(this.id)" id="Paragraph4">Exercise 4</a>
+            <a href="#Paragraph5s" onclick="reply_click(this.id)" id="Paragraph5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Styles
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Style1s" onclick="reply_click(this.id)" id="Style1">Exercise 1</a>
+            <a href="#Style2s" onclick="reply_click(this.id)" id="Style2">Exercise 2</a>
+            <a href="#Style3s" onclick="reply_click(this.id)" id="Style3">Exercise 3</a>
+            <a href="#Style4s" onclick="reply_click(this.id)" id="Style4">Exercise 4</a>
+            <a href="#Style5s" onclick="reply_click(this.id)" id="Style5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Formating
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Formatting1s" onclick="reply_click(this.id)" id="Formatting1">Exercise 1</a>
+            <a href="#Formatting2s" onclick="reply_click(this.id)" id="Formatting2">Exercise 2</a>
+            <a href="#Formatting3s" onclick="reply_click(this.id)" id="Formatting3">Exercise 3</a>
+            <a href="#Formatting4s" onclick="reply_click(this.id)" id="Formatting4">Exercise 4</a>
+            <a href="#Formatting5s" onclick="reply_click(this.id)" id="Formatting5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Qoutations
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Quotation1s" onclick="reply_click(this.id)" id="Quotation1">Exercise 1</a>
+            <a href="#Quotation2s" onclick="reply_click(this.id)" id="Quotation2">Exercise 2</a>
+            <a href="#Quotation3s" onclick="reply_click(this.id)" id="Quotation3">Exercise 3</a>
+            <a href="#Quotation4s" onclick="reply_click(this.id)" id="Quotation4">Exercise 4</a>
+            <a href="#Quotation5s" onclick="reply_click(this.id)" id="Quotation5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Comments 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Comment1s" onclick="reply_click(this.id)" id="Comment1">Exercise 1</a>
+            <a href="#Comment2s" onclick="reply_click(this.id)" id="Comment2">Exercise 2</a>
+            <a href="#Comment3s" onclick="reply_click(this.id)" id="Comment3">Exercise 3</a>
+            <a href="#Comment4s" onclick="reply_click(this.id)" id="Comment4">Exercise 4</a>
+            <a href="#Comment5s" onclick="reply_click(this.id)" id="Comment5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML CSS 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#CSS1s" onclick="reply_click(this.id)" id="CSS1">Exercise 1</a>
+            <a href="#CSS2s" onclick="reply_click(this.id)" id="CSS2">Exercise 2</a>
+            <a href="#CSS3s" onclick="reply_click(this.id)" id="CSS3">Exercise 3</a>
+            <a href="#CSS4s" onclick="reply_click(this.id)" id="CSS4">Exercise 4</a>
+            <a href="#CSS5s" onclick="reply_click(this.id)" id="CSS5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Links 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Link1s" onclick="reply_click(this.id)" id="Link1">Exercise 1</a>
+            <a href="#Link2s" onclick="reply_click(this.id)" id="Link2">Exercise 2</a>
+            <a href="#Link3s" onclick="reply_click(this.id)" id="Link3">Exercise 3</a>
+            <a href="#Link4s" onclick="reply_click(this.id)" id="Link4">Exercise 4</a>
+            <a href="#Link5s" onclick="reply_click(this.id)" id="Link5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Images 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Image1s" onclick="reply_click(this.id)" id="Image1">Exercise 1</a>
+            <a href="#Image2s" onclick="reply_click(this.id)" id="Image2">Exercise 2</a>
+            <a href="#Image3s" onclick="reply_click(this.id)" id="Image3">Exercise 3</a>
+            <a href="#Image4s" onclick="reply_click(this.id)" id="Image4">Exercise 4</a>
+            <a href="#Image5s" onclick="reply_click(this.id)" id="Image5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Tables 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Table1s" onclick="reply_click(this.id)" id="Table1">Exercise 1</a>
+            <a href="#Table2s" onclick="reply_click(this.id)" id="Table2">Exercise 2</a>
+            <a href="#Table3s" onclick="reply_click(this.id)" id="Table3">Exercise 3</a>
+            <a href="#Table4s" onclick="reply_click(this.id)" id="Table4">Exercise 4</a>
+            <a href="#Table5s" onclick="reply_click(this.id)" id="Table5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML List 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#List1s" onclick="reply_click(this.id)" id="List1">Exercise 1</a>
+            <a href="#List2s" onclick="reply_click(this.id)" id="List2">Exercise 2</a>
+            <a href="#List3s" onclick="reply_click(this.id)" id="List3">Exercise 3</a>
+            <a href="#List4s" onclick="reply_click(this.id)" id="List4">Exercise 4</a>
+            <a href="#List5s" onclick="reply_click(this.id)" id="List5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Classes 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Classes1s" onclick="reply_click(this.id)" id="Classes1">Exercise 1</a>
+            <a href="#Classes2s" onclick="reply_click(this.id)" id="Classes2">Exercise 2</a>
+            <a href="#Classes3s" onclick="reply_click(this.id)" id="Classes3">Exercise 3</a>
+            <a href="#Classes4s" onclick="reply_click(this.id)" id="Classes4">Exercise 4</a>
+            <a href="#Classes5s" onclick="reply_click(this.id)" id="Classes5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Id 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Id1s" onclick="reply_click(this.id)" id="Id1">Exercise 1</a>
+            <a href="#Id2s" onclick="reply_click(this.id)" id="Id2">Exercise 2</a>
+            <a href="#Id3s" onclick="reply_click(this.id)" id="Id3">Exercise 3</a>
+            <a href="#Id4s" onclick="reply_click(this.id)" id="Id4">Exercise 4</a>
+            <a href="#Id5s" onclick="reply_click(this.id)" id="Id5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Iframes
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Iframe1s" onclick="reply_click(this.id)" id="Iframe1">Exercise 1</a>
+            <a href="#Iframe2s" onclick="reply_click(this.id)" id="Iframe2">Exercise 2</a>
+            <a href="#Iframe3s" onclick="reply_click(this.id)" id="Iframe3">Exercise 3</a>
+            <a href="#Iframe4s" onclick="reply_click(this.id)" id="Iframe4">Exercise 4</a>
+            <a href="#Iframe5s" onclick="reply_click(this.id)" id="Iframe5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Scripts 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Script1s" onclick="reply_click(this.id)" id="Script1">Exercise 1</a>
+            <a href="#Script2s" onclick="reply_click(this.id)" id="Script2">Exercise 2</a>
+            <a href="#Script3s" onclick="reply_click(this.id)" id="Script3">Exercise 3</a>
+            <a href="#Script4s" onclick="reply_click(this.id)" id="Script4">Exercise 4</a>
+            <a href="#Script5s" onclick="reply_click(this.id)" id="Script5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Computercode 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Computercode1s" onclick="reply_click(this.id)" id="Computercode1">Exercise 1</a>
+            <a href="#Computercode2s" onclick="reply_click(this.id)" id="Computercode2">Exercise 2</a>
+            <a href="#Computercode3s" onclick="reply_click(this.id)" id="Computercode3">Exercise 3</a>
+            <a href="#Computercode4s" onclick="reply_click(this.id)" id="Computercode4">Exercise 4</a>
+            <a href="#Computercode5s" onclick="reply_click(this.id)" id="Computercode5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Forms 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#Form1s" onclick="reply_click(this.id)" id="Form1">Exercise 1</a>
+            <a href="#Form2s" onclick="reply_click(this.id)" id="Form2">Exercise 2</a>
+            <a href="#Form3s" onclick="reply_click(this.id)" id="Form3">Exercise 3</a>
+            <a href="#Form4s" onclick="reply_click(this.id)" id="Form4">Exercise 4</a>
+            <a href="#Form5s" onclick="reply_click(this.id)" id="Form5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Form Attributes 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#FormAttri1s" onclick="reply_click(this.id)" id="FormAttri1">Exercise 1</a>
+            <a href="#FormAttri2s" onclick="reply_click(this.id)" id="FormAttri2">Exercise 2</a>
+            <a href="#FormAttri3s" onclick="reply_click(this.id)" id="FormAttri3">Exercise 3</a>
+            <a href="#FormAttri4s" onclick="reply_click(this.id)" id="FormAttri4">Exercise 4</a>
+            <a href="#FormAttri5s" onclick="reply_click(this.id)" id="FormAttri5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Form Elements 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#FormElem1s" onclick="reply_click(this.id)" id="FormElem1">Exercise 1</a>
+            <a href="#FormElem2s" onclick="reply_click(this.id)" id="FormElem2">Exercise 2</a>
+            <a href="#FormElem3s" onclick="reply_click(this.id)" id="FormElem3">Exercise 3</a>
+            <a href="#FormElem4s" onclick="reply_click(this.id)" id="FormElem4">Exercise 4</a>
+            <a href="#FormElem5s" onclick="reply_click(this.id)" id="FormElem5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Input Types 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#InputType1s" onclick="reply_click(this.id)" id="InputType1">Exercise 1</a>
+            <a href="#InputType2s" onclick="reply_click(this.id)" id="InputType2">Exercise 2</a>
+            <a href="#InputType3s" onclick="reply_click(this.id)" id="InputType3">Exercise 3</a>
+            <a href="#InputType4s" onclick="reply_click(this.id)" id="InputType4">Exercise 4</a>
+            <a href="#InputType5s" onclick="reply_click(this.id)" id="InputType5">Exercise 5</a>
+        </div>
+        <button class="dropdown-btn">HTML Input Attributes
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#InputAttri1s" onclick="reply_click(this.id)" id="InputAttri1">Exercise 1</a>
+            <a href="#InputAttri2s" onclick="reply_click(this.id)" id="InputAttri2">Exercise 2</a>
+            <a href="#InputAttri3s" onclick="reply_click(this.id)" id="InputAttri3">Exercise 3</a>
+            <a href="#InputAttri4s" onclick="reply_click(this.id)" id="InputAttri4">Exercise 4</a>
+            <a href="#InputAttri5s" onclick="reply_click(this.id)" id="InputAttri5">Exercise 5</a>
+        </div>
+    </div>
+      
+    <div class="main" id="main">
+        <div id="myDIV">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav(); myFunction();">&#9776;</span> 
+        </div>
+        <h2>Exercise:</h2>
+        <!-- Attribute Part -->
+        <div class="outer-container" id="Attribute1s" style="display: block;">
+            <div class="q-container">
+                <h5>Attributes Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Attributes Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Attributes Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Attribute2s" style="display: none;">
+            <div class="q-container">
+                <h5>Attributes Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Attributes Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Attributes Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Attribute3s" style="display: none;">
+            <div class="q-container">
+                <h5>Attributes Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Attributes Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Attributes Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Attribute4s" style="display: none;">
+            <div class="q-container">
+                <h5>Attributes Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Attributes Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Attributes Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Attribute5s" style="display: none;">
+            <div class="q-container">
+                <h5>Attributes Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Attributes Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Attributes Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Heading Part -->
+        <div class="outer-container" id="Heading1s" style="display: none;">
+            <div class="q-container">
+                <h5>Headings Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Headings Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Headings Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Heading2s" style="display: none;">
+            <div class="q-container">
+                <h5>Headings Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Headings Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Headings Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Heading3s" style="display: none;">
+            <div class="q-container">
+                <h5>Headings Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Headings Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Headings Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Heading4s" style="display: none;">
+            <div class="q-container">
+                <h5>Headings Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Headings Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Headings Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Heading5s" style="display: none;">
+            <div class="q-container">
+                <h5>Headings Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Headings Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Headings Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Paragraph Part -->
+        <div class="outer-container" id="Paragraph1s" style="display: none;">
+            <div class="q-container">
+                <h5>Paragraphs Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Paragraphs Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Paragraphs Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Paragraph2s" style="display: none;">
+            <div class="q-container">
+                <h5>Paragraphs Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Paragraphs Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Paragraphs Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Paragraph3s" style="display: none;">
+            <div class="q-container">
+                <h5>Paragraphs Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Paragraphs Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Paragraphs Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Paragraph4s" style="display: none;">
+            <div class="q-container">
+                <h5>Paragraphs Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Paragraphs Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Paragraphs Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Paragraph5s" style="display: none;">
+            <div class="q-container">
+                <h5>Paragraphs Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Paragraphs Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Paragraphs Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Style Part -->
+        <div class="outer-container" id="Style1s" style="display: none;">
+            <div class="q-container">
+                <h5>Styles Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Styles Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Styles Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Style2s" style="display: none;">
+            <div class="q-container">
+                <h5>Styles Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Styles Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Styles Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Style3s" style="display: none;">
+            <div class="q-container">
+                <h5>Styles Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Styles Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Styles Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Style4s" style="display: none;">
+            <div class="q-container">
+                <h5>Styles Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Styles Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Styles Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Style5s" style="display: none;">
+            <div class="q-container">
+                <h5>Styles Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Styles Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Styles Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Formatting Part -->
+        <div class="outer-container" id="Formatting1s" style="display: none;">
+            <div class="q-container">
+                <h5>"Formatting Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>"Formatting Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"Formatting Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Formatting2s" style="display: none;">
+            <div class="q-container">
+                <h5>"Formatting Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>"Formatting Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"Formatting Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Formatting3s" style="display: none;">
+            <div class="q-container">
+                <h5>"Formatting Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>"Formatting Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"Formatting Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Formatting4s" style="display: none;">
+            <div class="q-container">
+                <h5>"Formatting Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>"Formatting Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"Formatting Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Formatting5s" style="display: none;">
+            <div class="q-container">
+                <h5>"Formatting Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>"Formatting Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"Formatting Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Quotation Part -->
+        <div class="outer-container" id="Quotation1s" style="display: none;">
+            <div class="q-container">
+                <h5>Quotations Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Quotations Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Quotations Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Quotation2s" style="display: none;">
+            <div class="q-container">
+                <h5>Quotations Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Quotations Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Quotations Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Quotation3s" style="display: none;">
+            <div class="q-container">
+                <h5>Quotations Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Quotations Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Quotations Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Quotation4s" style="display: none;">
+            <div class="q-container">
+                <h5>Quotations Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Quotations Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Quotations Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Quotation5s" style="display: none;">
+            <div class="q-container">
+                <h5>Quotations Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Quotations Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Quotations Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Comments Part -->
+        <div class="outer-container" id="Comment1s" style="display: none;">
+            <div class="q-container">
+                <h5>Comments Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Comments Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Comments Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Comment2s" style="display: none;">
+            <div class="q-container">
+                <h5>Comments Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Comments Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Comments Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Comment3s" style="display: none;">
+            <div class="q-container">
+                <h5>Comments Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Comments Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Comments Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Comment4s" style="display: none;">
+            <div class="q-container">
+                <h5>Comments Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Comments Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Comments Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Comment5s" style="display: none;">
+            <div class="q-container">
+                <h5>Comments Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Comments Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Comments Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- CSS Part -->
+        <div class="outer-container" id="CSS1s" style="display: none;">
+            <div class="q-container">
+                <h5>"CSS Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>"CSS Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"CSS Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="CSS2s" style="display: none;">
+            <div class="q-container">
+                <h5>"CSS Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>"CSS Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"CSS Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="CSS3s" style="display: none;">
+            <div class="q-container">
+                <h5>"CSS Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>"CSS Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"CSS Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="CSS4s" style="display: none;">
+            <div class="q-container">
+                <h5>"CSS Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>"CSS Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"CSS Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="CSS5s" style="display: none;">
+            <div class="q-container">
+                <h5>"CSS Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>"CSS Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>"CSS Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Links Part -->
+        <div class="outer-container" id="Link1s" style="display: none;">
+            <div class="q-container">
+                <h5>Links Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Links Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Links Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Link2s" style="display: none;">
+            <div class="q-container">
+                <h5>Links Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Links Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Links Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Link3s" style="display: none;">
+            <div class="q-container">
+                <h5>Links Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Links Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Links Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Link4s" style="display: none;">
+            <div class="q-container">
+                <h5>Links Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Links Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Links Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Link5s" style="display: none;">
+            <div class="q-container">
+                <h5>Links Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Links Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Links Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Images Part -->
+        <div class="outer-container" id="Image1s" style="display: none;">
+            <div class="q-container">
+                <h5>Images Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Images Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Images Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Image2s" style="display: none;">
+            <div class="q-container">
+                <h5>Images Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Images Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Images Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Image3s" style="display: none;">
+            <div class="q-container">
+                <h5>Images Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Images Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Images Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Image4s" style="display: none;">
+            <div class="q-container">
+                <h5>Images Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Images Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Images Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Image5s" style="display: none;">
+            <div class="q-container">
+                <h5>Images Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Images Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Images Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Tables Part -->
+        <div class="outer-container" id="Table1s" style="display: none;">
+            <div class="q-container">
+                <h5>Tables Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Tables Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Tables Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Table2s" style="display: none;">
+            <div class="q-container">
+                <h5>Tables Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Tables Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Tables Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Table3s" style="display: none;">
+            <div class="q-container">
+                <h5>Tables Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Tables Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Tables Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Table4s" style="display: none;">
+            <div class="q-container">
+                <h5>Tables Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Tables Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Tables Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Table5s" style="display: none;">
+            <div class="q-container">
+                <h5>Tables Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Tables Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Tables Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- List Part -->
+        <div class="outer-container" id="List1s" style="display: none;">
+            <div class="q-container">
+                <h5>Lists Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Lists Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Lists Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="List2s" style="display: none;">
+            <div class="q-container">
+                <h5>Lists Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Lists Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Lists Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="List3s" style="display: none;">
+            <div class="q-container">
+                <h5>Lists Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Lists Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Lists Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="List4s" style="display: none;">
+            <div class="q-container">
+                <h5>Lists Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Lists Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Lists Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="List5s" style="display: none;">
+            <div class="q-container">
+                <h5>Lists Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Lists Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Lists Output: Exercise5</h5>
+            </div>
+        </div>
+         <!-- Classes Part -->
+         <div class="outer-container" id="Classes1s" style="display: none;">
+            <div class="q-container">
+                <h5>Cassess Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Cassess Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Cassess Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Classes2s" style="display: none;">
+            <div class="q-container">
+                <h5>Cassess Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Cassess Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Cassess Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Classes3s" style="display: none;">
+            <div class="q-container">
+                <h5>Cassess Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Cassess Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Cassess Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Classes4s" style="display: none;">
+            <div class="q-container">
+                <h5>Cassess Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Cassess Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Cassess Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Classes5s" style="display: none;">
+            <div class="q-container">
+                <h5>Cassess Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Cassess Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Cassess Output: Exercise5</h5>
+            </div>
+        </div>
+         <!-- Id Part -->
+         <div class="outer-container" id="Id1s" style="display: none;">
+            <div class="q-container">
+                <h5>Ids Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Ids Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Ids Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Id2s" style="display: none;">
+            <div class="q-container">
+                <h5>Ids Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Ids Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Ids Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Id3s" style="display: none;">
+            <div class="q-container">
+                <h5>Ids Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Ids Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Ids Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Id4s" style="display: none;">
+            <div class="q-container">
+                <h5>Ids Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Ids Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Ids Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Id5s" style="display: none;">
+            <div class="q-container">
+                <h5>Ids Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Ids Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Ids Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Iframes Part -->
+        <div class="outer-container" id="Iframe1s" style="display: none;">
+            <div class="q-container">
+                <h5>Iframes Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Iframes Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Iframes Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Iframe2s" style="display: none;">
+            <div class="q-container">
+                <h5>Iframes Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Iframes Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Iframes Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Iframe3s" style="display: none;">
+            <div class="q-container">
+                <h5>Iframes Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Iframes Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Iframes Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Iframe4s" style="display: none;">
+            <div class="q-container">
+                <h5>Iframes Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Iframes Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Iframes Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Iframe5s" style="display: none;">
+            <div class="q-container">
+                <h5>Iframes Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Iframes Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Iframes Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Scripts Part -->
+        <div class="outer-container" id="Script1s" style="display: none;">
+            <div class="q-container">
+                <h5>Scripts Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Scripts Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Scripts Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Script2s" style="display: none;">
+            <div class="q-container">
+                <h5>Scripts Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Scripts Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Scripts Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Script3s" style="display: none;">
+            <div class="q-container">
+                <h5>Scripts Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Scripts Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Scripts Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Script4s" style="display: none;">
+            <div class="q-container">
+                <h5>Scripts Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Scripts Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Scripts Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Script5s" style="display: none;">
+            <div class="q-container">
+                <h5>Scripts Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Scripts Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Scripts Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Computercode Part -->
+        <div class="outer-container" id="Computercode1s" style="display: none;">
+            <div class="q-container">
+                <h5>Computercodes Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Computercodes Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Computercodes Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Computercode2s" style="display: none;">
+            <div class="q-container">
+                <h5>Computercodes Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Computercodes Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Computercodes Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Computercode3s" style="display: none;">
+            <div class="q-container">
+                <h5>Computercodes Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Computercodes Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Computercodes Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Computercode4s" style="display: none;">
+            <div class="q-container">
+                <h5>Computercodes Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Computercodes Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Computercodes Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Computercode5s" style="display: none;">
+            <div class="q-container">
+                <h5>Computercodes Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Computercodes Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Computercodes Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Forms Part -->
+        <div class="outer-container" id="Form1s" style="display: none;">
+            <div class="q-container">
+                <h5>Forms Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>Forms Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Forms Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Form2s" style="display: none;">
+            <div class="q-container">
+                <h5>Forms Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>Forms Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Forms Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Form3s" style="display: none;">
+            <div class="q-container">
+                <h5>Forms Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>Forms Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Forms Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Form4s" style="display: none;">
+            <div class="q-container">
+                <h5>Forms Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>Forms Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Forms Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="Form5s" style="display: none;">
+            <div class="q-container">
+                <h5>Forms Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>Forms Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>Forms Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Form Attributes Part -->
+        <div class="outer-container" id="FormAttri1s" style="display: none;">
+            <div class="q-container">
+                <h5>FormAttris Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormAttris Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormAttris Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormAttri2s" style="display: none;">
+            <div class="q-container">
+                <h5>FormAttris Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormAttris Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormAttris Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormAttri3s" style="display: none;">
+            <div class="q-container">
+                <h5>FormAttris Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormAttris Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormAttris Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormAttri4s" style="display: none;">
+            <div class="q-container">
+                <h5>FormAttris Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormAttris Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormAttris Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormAttri5s" style="display: none;">
+            <div class="q-container">
+                <h5>FormAttris Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormAttris Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormAttris Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Form Element Part -->
+        <div class="outer-container" id="FormElem1s" style="display: none;">
+            <div class="q-container">
+                <h5>FormElems Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormElems Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormElems Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormElem2s" style="display: none;">
+            <div class="q-container">
+                <h5>FormElems Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormElems Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormElems Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormElem3s" style="display: none;">
+            <div class="q-container">
+                <h5>FormElems Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormElems Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormElems Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormElem4s" style="display: none;">
+            <div class="q-container">
+                <h5>FormElems Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormElems Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormElems Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="FormElem5s" style="display: none;">
+            <div class="q-container">
+                <h5>FormElems Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>FormElems Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>FormElems Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Input Types Part -->
+        <div class="outer-container" id="InputType1s" style="display: none;">
+            <div class="q-container">
+                <h5>InputTypes Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputTypes Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputType2s" style="display: none;">
+            <div class="q-container">
+                <h5>InputTypes Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputTypes Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputTypes Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputType3s" style="display: none;">
+            <div class="q-container">
+                <h5>InputTypes Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputTypes Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputTypes Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputType4s" style="display: none;">
+            <div class="q-container">
+                <h5>InputTypes Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputTypes Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputTypes Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputType5s" style="display: none;">
+            <div class="q-container">
+                <h5>InputTypes Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputTypes Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputTypes Output: Exercise5</h5>
+            </div>
+        </div>
+        <!-- Input Attributes Part -->
+        <div class="outer-container" id="InputAttri1s" style="display: none;">
+            <div class="q-container">
+                <h5>InputAttris Question: Exercise1</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise1</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputAttris Output: Exercise1</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputAttri2s" style="display: none;">
+            <div class="q-container">
+                <h5>InputAttris Question: Exercise2</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise2</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputAttris Output: Exercise2</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputAttri3s" style="display: none;">
+            <div class="q-container">
+                <h5>InputAttris Question: Exercise3</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise3</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputAttris Output: Exercise3</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputAttri4s" style="display: none;">
+            <div class="q-container">
+                <h5>InputAttris Question: Exercise4</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise4</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputAttris Output: Exercise4</h5>
+            </div>
+        </div>
+
+        <div class="outer-container" id="InputAttri5s" style="display: none;">
+            <div class="q-container">
+                <h5>InputAttris Question: Exercise5</h5>
+            </div>
+            <div class="code-container">
+                <h5>InputAttris Code: Exercise5</h5> 
+            </div>
+            <div class="op-container">
+                <h5>InputAttris Output: Exercise5</h5>
+            </div>
+        </div>
+
+        <a class="submit-btn">Submit</a>
+    </div>
+    <script src="Activity_Script.js" class="submit-btns" type="text/javascript"></script>
+    
+</body>
+</html>
