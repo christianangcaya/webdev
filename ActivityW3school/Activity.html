@@ -241,18 +241,24 @@
             <span style="font-size:30px;cursor:pointer" onclick="openNav(); myFunction();">&#9776;</span> 
         </div>
         <h2>Exercise:</h2>
+
         <!-- Attributes Part -->
         <div class="outer-container" id="Attribute1s" style="display: block;">
             <div class="q-container">
                 <h5>Add a "tooltip" to the paragraph below with the text "About W3Schools".</h5> <!--Question lalagay dito for example: -->
             </div>
             <div class="code-container">
-                <h5>Code:
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h5&gt; Christian Angcaya &lt;/h5&gt;</h5> <!--Code lalagay dito na fill in the blank katulad sa W#school -->
+                <h5 id="q1" ansValue="abcd">Code:
+                    <br>
+                    <input id = "input1" style="width: 160px;" name="attribute_info">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h5&gt; Christian Angcaya &lt;/h5&gt;
+                </h5> <!--Code lalagay dito na fill in the blank katulad sa W#school -->
             </div>
             <div class="op-container">
                 <h5>Output: Christian Angcaya</h5> <!--Dito yung Output nung -->
             </div>
+            <a class="submit-btn" onclick="checkAnswer('q1','input1')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('q1')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Attribute2s" style="display: none;">
@@ -1563,7 +1569,7 @@
             </div>
         </div>
 
-        <a class="submit-btn">Submit</a>
+        <!--<a class="submit-btn">Submit</a>-->
     </div>
     <script src="Activity_Script.js" class="submit-btns" type="text/javascript"></script>
     

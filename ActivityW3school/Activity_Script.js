@@ -162,3 +162,46 @@ function reply_click(clicked_id){
     document.getElementById(clicked_id+"s").style.display = "block";
 }
 
+function checkAnswer(questionId, inputId){
+    // Get specific question by ID
+    var thisQuestionId = document.getElementById(questionId);
+    // Get answer value of the specific question
+    var ans = thisQuestionId.getAttribute("ansValue");
+    // Get user input value
+    var userAsnwer = document.getElementById(inputId).value;
+    // Checks if user input is same with set correct answer
+    if (ans === userAsnwer){
+        alert( userAsnwer + " is correct!");
+    } else {
+        alert( userAsnwer + " is wrong!");
+    }
+}
+var isHidden = true;
+function showAnswer(questionId) {
+    // Get specific question by ID
+    var thisQuestionId = document.getElementById(questionId);
+    // Get answer value of the specific question
+    var ans = thisQuestionId.getAttribute("ansValue");
+   // Get the input element
+   if (isHidden === true){
+    var inputElement = document.querySelector('input[name="attribute_info"]');
+   
+   // Set the value of the input element to the correct answer
+   inputElement.value = ans;
+   
+   // Disable the input to prevent further editing
+   inputElement.setAttribute('disabled', 'true');
+   isHidden = false;
+   } else {
+    var inputElement = document.querySelector('input[name="attribute_info"]');
+   
+   // Set the value of the input element to the correct answer
+   inputElement.value = '';
+   
+   // Disable the input to prevent further editing
+   inputElement.removeAttribute('disabled');
+   isHidden = true;
+   }
+   
+ }
+
