@@ -261,18 +261,21 @@
             <a class="show-btn" onclick="showAnswer('q1')">Show Ans</a>
         </div>
 
-        <div class="outer-container" id="Attribute2s" style="display: none;">
+        <div class="outer-container" id="Attribute2s" style="display: block;">
             <div class="q-container">
-                <h5>Attributes Question: Exercise2</h5>
+                <h5>Set the text color of a paragraph to red using the HTML attribute</h5>
             </div>
             <div class="code-container">
-                <h5>Attributes Code: Exercise2</h5> 
+                <h5 id="q2" ansValue=color>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="<input id =  "input2" style="width: 100px;" name="attribute_info">:red">This is a red paragraph &lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Attributes Output: Exercise2</h5>
+                <h5><p style="color:red">This is a red paragraph</p></h5>
             </div>
-            <a class="submit-btn" onclick="checkAnswer()">Submit</a>
-            <a class="show-btn" onclick="showAnswer()">Show Ans</a>
+            <a class="submit-btn" onclick="checkAnswer('q2', 'input2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('q2')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Attribute3s" style="display: none;">
