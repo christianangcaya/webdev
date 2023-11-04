@@ -101,7 +101,7 @@ function remove(){
     document.getElementById("Classes3s").style.display = "none";
     document.getElementById("Classes4s").style.display = "none";
     document.getElementById("Classes5s").style.display = "none";
-    
+
     document.getElementById("Id1s").style.display = "none";
     document.getElementById("Id2s").style.display = "none";
     document.getElementById("Id3s").style.display = "none";
@@ -161,3 +161,4 @@ function reply_click(clicked_id){
     remove();
     document.getElementById(clicked_id+"s").style.display = "block";
 }
+
