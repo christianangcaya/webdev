@@ -261,7 +261,7 @@
             <a class="show-btn" onclick="showAnswer('q1')">Show Ans</a>
         </div>
 
-        <div class="outer-container" id="Attribute2s" style="display: block;">
+        <div class="outer-container" id="Attribute2s" style="display: none;">
             <div class="q-container">
                 <h5>Set the text color of a paragraph to red using the HTML attribute</h5>
             </div>
@@ -2090,38 +2090,79 @@
         <!-- Form Element Part -->
         <div class="outer-container" id="FormElem1s" style="display: none;">
             <div class="q-container">
-                <h5>FormElems Question: Exercise1</h5>
+                <h5>Add a text area with a name "Fiona"</h5>
             </div>
             <div class="code-container">
-                <h5>FormElems Code: Exercise1</h5> 
+                <h5 id="FEq1" ansValue='textarea name="Fiona"'>Code:
+                    <br>
+                    <br>
+                    &lt;form action="/action_page.php"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;<input id = "FEIq1" style="width: 100px;" name="attribute_info"> rows="10" cols="30"&gt;Fiona&lt;/textarea&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>FormElems Output: Exercise1</h5>
+                <h5>Output:
+                    <form action="/action_page.php">
+                        <textarea name="Fiona" rows="10" cols="30">Fiona</textarea>
+                      </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('FEq1','FEIq1')">Submit</a>
         </div>
 
         <div class="outer-container" id="FormElem2s" style="display: none;">
             <div class="q-container">
-                <h5>FormElems Question: Exercise2</h5>
+                <h5>In the HTML code below, add a button with the type "button".</h5>
             </div>
             <div class="code-container">
-                <h5>FormElems Code: Exercise2</h5> 
+                <h5 id="FEq2" ansValue='type="button"'>Code:
+                    <br>
+                    &lt;form action="/action_page.php"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt; button<input id = "FEIq2" style="width: 100px;" name="attribute_info">&gt;Click Me!&lt;/button&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>FormElems Output: Exercise2</h5>
+                <h5>Output:
+                    <br>
+                    <form action="/action_page.php">
+                        <button type="button">Click Me!</button>
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('FEq2','FEIq2')">Submit</a>
         </div>
 
         <div class="outer-container" id="FormElem3s" style="display: none;">
             <div class="q-container">
-                <h5>FormElems Question: Exercise3</h5>
+                <h5>In the form below, add an empty drop down list with the name "courses". </h5>
             </div>
             <div class="code-container">
-                <h5>FormElems Code: Exercise3</h5> 
+                <h5 id="FEq3" ansValue="/select">Code:
+                    <br>
+                    &lt;form action="/action_page.php"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;select name="courses">
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;<input id = "FEIq3" style="width: 100px;" name="attribute_info">&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>FormElems Output: Exercise3</h5>
+                <h5>Output:
+                    <form action ="/action_page.php">
+                        <select name="courses">
+                        </select>
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('FEq3','FEIq3')">Submit</a>
         </div>
 
         <div class="outer-container" id="FormElem4s" style="display: none;">
