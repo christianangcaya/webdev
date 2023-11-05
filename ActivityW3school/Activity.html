@@ -321,17 +321,24 @@
 
         <div class="outer-container" id="Attribute5s" style="display: none;">
             <div class="q-container">
-                <h5>Attributes Question: Exercise5</h5>
+                <h5>Create a paragraph about JavaScript and provide a title attribute with a brief description.</h5>
             </div>
             <div class="code-container">
-                <h5>Attributes Code: Exercise5</h5> 
+                <h5 id="ver2" ansValue="title">Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p <input id = "lev2" style="width: 80px;" name="attribute_info">="JavaScript programming language">JavaScript is used for adding interactivity to web pages. /p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Attributes Output: Exercise5</h5>
+                <h5>Output:
+                    <br>
+                    <p title="JavaScript programming language">JavaScript is used for adding interactivity to web pages.</p>
+                </h5>
             </div>
-            <a class="submit-btn" onclick="checkAnswer()">Submit</a>
-            <a class="show-btn" onclick="showAnswer()">Show Ans</a>
+            <a class="submit-btn" onclick="checkAnswer('ver2','lev2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('ver2')">Show Ans</a>
         </div>
+        
         <!-- Heading Part -->
         <div class="outer-container" id="Heading1s" style="display: none;">
             <div class="q-container">
