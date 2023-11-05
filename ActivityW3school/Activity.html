@@ -1750,14 +1750,42 @@
          <!-- Id Part -->
          <div class="outer-container" id="Id1s" style="display: none;">
             <div class="q-container">
-                <h5>Ids Question: Exercise1</h5>
+                <h5>Create a paragraph and use ID to highlight the text and highlight it lightgreen</h5>
             </div>
             <div class="code-container">
-                <h5>Ids Code: Exercise1</h5> 
+                <h5 id="ver3" ansValue="highlight-text">Code: 
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;style&gt;
+                    <br>
+                    #<input id =  "lev3" style="width: 150px;" name="attribute_info">{background-color: lightgreen;}
+                    <br>
+                    &lt;style&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &gt;p id="highlight-text">This is a paragraph with a light green background.&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Ids Output: Exercise1</h5>
+                <h5>Output:
+                    <br>
+                    <p id="highlight-text" style="background-color: lightgreen;">
+                        This is a paragraph with a light green background.
+                    </p>                    
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('ver3', 'lev3')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('lver3')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Id2s" style="display: none;">
