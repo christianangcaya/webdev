@@ -2235,7 +2235,7 @@
         <!-- Input Types Part -->
         <div class="outer-container" id="InputType1s" style="display: none;">
             <div class="q-container">
-                <h5>Create a code that has input type that can define a single-line text input field</h5>
+                <h5>Create a code that has an input type that can define a single-line text input field</h5>
             </div>
             <div class="code-container">
                 <h5 id="ITq1" ansValue='type="text"'>Code:
@@ -2263,50 +2263,113 @@
 
         <div class="outer-container" id="InputType2s" style="display: none;">
             <div class="q-container">
-                <h5>InputTypes Question: Exercise2</h5>
+                <h5>Create a code that has an input type that can define a password field</h5>
             </div>
             <div class="code-container">
-                <h5>InputTypes Code: Exercise2</h5> 
+                <h5 id="ITq2" ansValue='type="password"'>Code:
+                    <br>
+                    &lt;form>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;label for="pwd"&gt;Password&lt;/label&gt;&lt;br&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;input <input id = "ITIq2" style="width: 100px;" name="attribute_info"> id="pwd" name="pwd"&gt;&lt;br&gt;
+                    <br>
+                    &lt;/form>
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>InputTypes Output: Exercise2</h5>
+                <h5>Output:
+                    <br>
+                    <form>
+                        <label for="pwd">Password:</label><br>
+                        <input type="password" id="pwd" name="pwd">
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('ITq2','ITIq2')">Submit</a>
         </div>
 
         <div class="outer-container" id="InputType3s" style="display: none;">
             <div class="q-container">
-                <h5>InputTypes Question: Exercise3</h5>
+                <h5>Create a code that has an input type that can define a radio button</h5>
             </div>
             <div class="code-container">
-                <h5>InputTypes Code: Exercise3</h5> 
+                <h5 id="ITq3" ansValue='type="radio"'>Code:
+                    <br>
+                    &lt;form action="/action_page.php"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;input <input id = "ITIq3" style="width: 100px;" name="attribute_info"> id="html" name="fav_language" value="HTML"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;label for="html">HTML&lt;/label&gt;&lt;br&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>InputTypes Output: Exercise3</h5>
+                <h5> Output:
+                    <form action="/action_page.php">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label><br>
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('ITq3','ITIq3')">Submit</a>
         </div>
 
         <div class="outer-container" id="InputType4s" style="display: none;">
             <div class="q-container">
-                <h5>InputTypes Question: Exercise4</h5>
+                <h5>Create a code that has an input type that can define a checkbox</h5>
             </div>
             <div class="code-container">
-                <h5>InputTypes Code: Exercise4</h5> 
+                <h5 id="ITq4" ansValue='type="checkbox"'>Code:
+                    <br>
+                    &lt;form&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;input <input id = "ITIq4" style="width: 100px;" name="attribute_info"> id="html" name="fav_language" value="HTML"&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;label for="vehicle1">I have a bike&lt;/label&gt;&lt;br&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>InputTypes Output: Exercise4</h5>
+                <h5>Output:
+                    <br>
+                    <form>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label><br>
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('ITq4','ITIq4')">Submit</a>
         </div>
 
         <div class="outer-container" id="InputType5s" style="display: none;">
             <div class="q-container">
-                <h5>InputTypes Question: Exercise5</h5>
+                <h5>Create a code that has an input type that can used for input fields that should contain a date.</h5>
             </div>
             <div class="code-container">
-                <h5>InputTypes Code: Exercise5</h5> 
+                <h5 id="ITq5" ansValue='type="date"'>Code:
+                    <br>
+                    &lt;form&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;label for="birthday">Birthday:&lt;/label&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;input <input id = "ITIq5" style="width: 100px;" name="attribute_info"> id="birthday" name="birthday"&gt;
+                    <br>
+                    &lt;/form&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>InputTypes Output: Exercise5</h5>
+                <h5>Output:
+                    <br>
+                    <form>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </form>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('ITq5','ITIq5')">Submit</a>
         </div>
         <!-- Input Attributes Part -->
         <div class="outer-container" id="InputAttri1s" style="display: none;">
