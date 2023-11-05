@@ -2089,14 +2089,37 @@
 
         <div class="outer-container" id="Script3s" style="display: none;">
             <div class="q-container">
-                <h5>Scripts Question: Exercise3</h5>
+                <h5>Change the font size of the paragraph to 24 pixels.
+                </h5>
             </div>
             <div class="code-container">
-                <h5>Scripts Code: Exercise3</h5> 
+                <h5 id="rhy1" ansValue="fontSize">Code:
+                    <br>
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;p id="demo">Hi. /p&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;p script &gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;document.getElementById("demo").style.<input id =  "rv1" style="width: 80px;" name="attribute_info"> = "24px";
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&lt;p script &gt;
+                    <br>
+                    &lt;/body&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Scripts Output: Exercise3</h5>
+                <h5>Output:
+                    <br>
+                    <p id="demo">Hi.</p>
+        <script>
+            document.getElementById("demo").style.fontSize = "24px";
+        </script>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('rhy1', 'rv1')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('rhy1')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Script4s" style="display: none;">
