@@ -513,28 +513,20 @@ function checkAnswer(questionId, inputId){
         }
         //InputAttri
         if (exercisesId_array.includes("IAq1")){
-          document.getElementById("InputAttri").style.backgroundColor="green";
+          document.getElementById("InputAttri1").style.backgroundColor="green";
         }
         if (exercisesId_array.includes("IAq2")){
-          document.getElementById("InputAttri").style.backgroundColor="green";
+          document.getElementById("InputAttri2").style.backgroundColor="green";
         }
         if (exercisesId_array.includes("IAq3")){
-          document.getElementById("InputAttri").style.backgroundColor="green";
+          document.getElementById("InputAttri3").style.backgroundColor="green";
         }
         if (exercisesId_array.includes("IAq4")){
-          document.getElementById("InputAttri").style.backgroundColor="green";
+          document.getElementById("InputAttri4").style.backgroundColor="green";
         }
         if (exercisesId_array.includes("IAq5")){
-          document.getElementById("InputAttri").style.backgroundColor="green";
+          document.getElementById("InputAttri5").style.backgroundColor="green";
         }
-
-
-
-
-
-
-
-
     } else {
         alert( userAsnwer + " is wrong!");
     }
