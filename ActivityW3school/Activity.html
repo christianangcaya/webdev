@@ -245,17 +245,22 @@
         <!-- Attributes Part -->
         <div class="outer-container" id="Attribute1s" style="display: block;">
             <div class="q-container">
-                <h5>Add a "tooltip" to the paragraph below with the text "About W3Schools".</h5> <!--Question lalagay dito for example: -->
+                <h5>Show an image with the source "honeybutter.jpg" and set the alternative text to "HoneyButter."</h5> <!--Question lalagay dito for example: -->
             </div>
             <div class="code-container">
-                <h5 id="q1" ansValue="abcd">Code:
+                <h5 id="q1" ansValue="alt">Code:
                     <br>
-                    <input id = "input1" style="width: 160px;" name="attribute_info">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h5&gt; Christian Angcaya &lt;/h5&gt;
+                    <br>
+                    &lt;img src="honeybutter.jpg" <input id = "input1" style="width: 60px;" name="attribute_info">="Honeybutter"&gt;
+                    
                 </h5> <!--Code lalagay dito na fill in the blank katulad sa W#school -->
             </div>
             <div class="op-container">
-                <h5>Output: Christian Angcaya</h5> <!--Dito yung Output nung -->
+                <h5>Output:
+                    <br>
+                    <br>
+                    <img src="honeybutter.jpg" alt="Honeybutter">
+                </h5> <!--Dito yung Output nung -->
             </div>
             <a class="submit-btn" onclick="checkAnswer('q1','input1')">Submit</a>
             <a class="show-btn" onclick="showAnswer('q1')">Show Ans</a>
@@ -283,17 +288,18 @@
 
         <div class="outer-container" id="Attribute3s" style="display: none;">
             <div class="q-container">
-                <h5>Change the image source to "sugarplump.jpg" and set the width and height attributes.</h5>
+                <h5>Change the image source to "Jake.jpg" and set the width and height attributes.</h5>
             </div>
             <div class="code-container">
                 <h5 id="ver" ansValue="src">Code:
                     <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;img <input id ="lev" style="width: 100px;" name="attribute_info">="sugarplump.jpg" width="270" height="220"></h5> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;img <input id ="lev" style="width: 100px;" name="attribute_info">="Jake.jpg" width="270" height="220"></h5> 
             </div>
             <div class="op-container">
                 <h5>Output: 
                     <br>
-                    Image Chosen</h5>
+                    <br>
+                    <img src="Jake.jpg" width="270" height="220"></h5>
             </div>
             <a class="submit-btn" onclick="checkAnswer('ver', 'lev')">Submit</a>
             <a class="show-btn" onclick="showAnswer('ver')">Show Ans</a>
