@@ -10,7 +10,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111; /*color ng sidenav*/
+  background-color: #021024; /*color ng sidenav*/
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 20px;
@@ -42,6 +42,7 @@ h4{
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
   color: #f1f1f1;/*color pag natapatan ng cursor or nung mouse ponter yung nasa side nav*/
+  background-color: #7DA0CA;
 }
 
 /* Main content */
@@ -54,14 +55,14 @@ h4{
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
+  background-color: #5483b3;
   color: white;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #111; /*color ng container ng mge exercises*/
+  background-color: #021024; /*color ng container ng mge exercises*/
   width: 170px;
   padding-left: 20px;
 }
@@ -96,7 +97,7 @@ h4{
 }
 .outer-container{
   border-radius: 24px; 
-  background-color: #818181;/*color nung outer continer*/
+  background-color: #7DA0CA;/*color nung outer continer*/
   height: 600px;
   width: 1200px;
   padding: 10px 10px 10px 10px;
@@ -104,7 +105,7 @@ h4{
 }
 .q-container{ 
   border-radius: 10px;
-  background-color: antiquewhite;/*color nung question container yung may laman question*/
+  background-color: #C1E8FF;/*color nung question container yung may laman question*/
   width: 95%;
   height: 50px;
   margin: auto;
@@ -115,7 +116,7 @@ h4{
   float: left;
   width: 45%;
   height: 77%;
-  background-color: antiquewhite; /*color ng code conatiner yung may laman code*/
+  background-color: #C1E8FF; /*color ng code conatiner yung may laman code*/
   margin-top: 10px;
   margin-left: 29px;
   border-radius: 10px;
@@ -126,7 +127,7 @@ h4{
   float: right;
   width: 45%;
   height: 77%;
-  background-color: antiquewhite; /*color ng output conatiner yung may laman output*/
+  background-color: #C1E8FF; /*color ng output conatiner yung may laman output*/
   margin-top: 10px;
   margin-right: 29px;
   border-radius: 10px;
@@ -140,7 +141,7 @@ h4{
   padding: 10px 40px;
   text-decoration: none;
   font-weight: 100;
-  background-color: #262626;
+  background-color: #021024;
   color: #f1f1f1;
   cursor: pointer;
   margin-left: 530px;
@@ -154,7 +155,7 @@ h4{
   padding: 10px 40px;
   text-decoration: none;
   font-weight: 100;
-  background-color: #262626;
+  background-color: #021024;
   color: #f1f1f1;
   cursor: pointer;
 }

@@ -177,355 +177,355 @@ function checkAnswer(questionId, inputId){
         }
         //Attributes
         if (exercisesId_array.includes("q1")){
-          document.getElementById("Attribute1").style.backgroundColor="green";
+          document.getElementById("Attribute1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("q2")){
-          document.getElementById("Attribute2").style.backgroundColor="green";
+          document.getElementById("Attribute2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver")){
-          document.getElementById("Attribute3").style.backgroundColor="green";
+          document.getElementById("Attribute3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver1")){
-          document.getElementById("Attribute4").style.backgroundColor="green";
+          document.getElementById("Attribute4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver2")){
-          document.getElementById("Attribute5").style.backgroundColor="green";
+          document.getElementById("Attribute5").style.backgroundColor="#7DA0CA";
         }
         //Heading
         if (exercisesId_array.includes("hed1")){
-          document.getElementById("Heading1").style.backgroundColor="green";
+          document.getElementById("Heading1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("hed2")){
-          document.getElementById("Heading2").style.backgroundColor="green";
+          document.getElementById("Heading2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("hed3")){
-          document.getElementById("Heading3").style.backgroundColor="green";
+          document.getElementById("Heading3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("hed4")){
-          document.getElementById("Heading4").style.backgroundColor="green";
+          document.getElementById("Heading4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("hed5")){
-          document.getElementById("Heading5").style.backgroundColor="green";
+          document.getElementById("Heading5").style.backgroundColor="#7DA0CA";
         }
         //Paragraph
         if (exercisesId_array.includes("para1")){
-          document.getElementById("Paragraph1").style.backgroundColor="green";
+          document.getElementById("Paragraph1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("para2")){
-          document.getElementById("Paragraph2").style.backgroundColor="green";
+          document.getElementById("Paragraph2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("para3")){
-          document.getElementById("Paragraph3").style.backgroundColor="green";
+          document.getElementById("Paragraph3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("para4")){
-          document.getElementById("Paragraph4").style.backgroundColor="green";
+          document.getElementById("Paragraph4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("para5")){
-          document.getElementById("Paragraph5").style.backgroundColor="green";
+          document.getElementById("Paragraph5").style.backgroundColor="#7DA0CA";
         }
         //Style
         if (exercisesId_array.includes("st1")){
-          document.getElementById("Style1").style.backgroundColor="green";
+          document.getElementById("Style1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("st2")){
-          document.getElementById("Style2").style.backgroundColor="green";
+          document.getElementById("Style2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("st3")){
-          document.getElementById("Style3").style.backgroundColor="green";
+          document.getElementById("Style3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("st4")){
-          document.getElementById("Style4").style.backgroundColor="green";
+          document.getElementById("Style4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("st5")){
-          document.getElementById("Style5").style.backgroundColor="green";
+          document.getElementById("Style5").style.backgroundColor="#7DA0CA";
         }
         //Formatting
         if (exercisesId_array.includes("frm01")){
-          document.getElementById("Formatting1").style.backgroundColor="green";
+          document.getElementById("Formatting1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("frm02")){
-          document.getElementById("Formatting2").style.backgroundColor="green";
+          document.getElementById("Formatting2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("frm03")){
-          document.getElementById("Formatting3").style.backgroundColor="green";
+          document.getElementById("Formatting3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("frm04")){
-          document.getElementById("Formatting4").style.backgroundColor="green";
+          document.getElementById("Formatting4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("frm05")){
-          document.getElementById("Formatting5").style.backgroundColor="green";
+          document.getElementById("Formatting5").style.backgroundColor="#7DA0CA";
         }
         //Quotation
         if (exercisesId_array.includes("qt01")){
-          document.getElementById("Quotation1").style.backgroundColor="green";
+          document.getElementById("Quotation1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("qt02")){
-          document.getElementById("Quotation2").style.backgroundColor="green";
+          document.getElementById("Quotation2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("qt03")){
-          document.getElementById("Quotation3").style.backgroundColor="green";
+          document.getElementById("Quotation3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("qt04")){
-          document.getElementById("Quotation4").style.backgroundColor="green";
+          document.getElementById("Quotation4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("qt05")){
-          document.getElementById("Quotation5").style.backgroundColor="green";
+          document.getElementById("Quotation5").style.backgroundColor="#7DA0CA";
         }
         //Comment
         if (exercisesId_array.includes("cmt01")){
-          document.getElementById("Comment1").style.backgroundColor="green";
+          document.getElementById("Comment1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cmt02")){
-          document.getElementById("Comment2").style.backgroundColor="green";
+          document.getElementById("Comment2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cmt03")){
-          document.getElementById("Comment3").style.backgroundColor="green";
+          document.getElementById("Comment3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cmt04")){
-          document.getElementById("Comment4").style.backgroundColor="green";
+          document.getElementById("Comment4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cmt05")){
-          document.getElementById("Comment5").style.backgroundColor="green";
+          document.getElementById("Comment5").style.backgroundColor="#7DA0CA";
         }
         //CSS
         if (exercisesId_array.includes("anscss1")){
-          document.getElementById("CSS1").style.backgroundColor="green";
+          document.getElementById("CSS1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anscss2")){
-          document.getElementById("CSS2").style.backgroundColor="green";
+          document.getElementById("CSS2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anscss3")){
-          document.getElementById("CSS3").style.backgroundColor="green";
+          document.getElementById("CSS3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anscss4")){
-          document.getElementById("CSS4").style.backgroundColor="green";
+          document.getElementById("CSS4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anscss5")){
-          document.getElementById("CSS5").style.backgroundColor="green";
+          document.getElementById("CSS5").style.backgroundColor="#7DA0CA";
         }
         //Link
         if (exercisesId_array.includes("anslinks1")){
-          document.getElementById("Link1").style.backgroundColor="green";
+          document.getElementById("Link1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anslinks2")){
-          document.getElementById("Link2").style.backgroundColor="green";
+          document.getElementById("Link2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anslinks3")){
-          document.getElementById("Link3").style.backgroundColor="green";
+          document.getElementById("Link3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anslinks4")){
-          document.getElementById("Link4").style.backgroundColor="green";
+          document.getElementById("Link4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("anslinks5")){
-          document.getElementById("Link5").style.backgroundColor="green";
+          document.getElementById("Link5").style.backgroundColor="#7DA0CA";
         }
         //Image
         if (exercisesId_array.includes("ansimage1")){
-          document.getElementById("Image1").style.backgroundColor="green";
+          document.getElementById("Image1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ansimage2")){
-          document.getElementById("Image2").style.backgroundColor="green";
+          document.getElementById("Image2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ansimage3")){
-          document.getElementById("Image3").style.backgroundColor="green";
+          document.getElementById("Image3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ansimage4")){
-          document.getElementById("Image4").style.backgroundColor="green";
+          document.getElementById("Image4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ansimage5")){
-          document.getElementById("Image5").style.backgroundColor="green";
+          document.getElementById("Image5").style.backgroundColor="#7DA0CA";
         }
         //Table
         if (exercisesId_array.includes("tin1")){
-          document.getElementById("Table1").style.backgroundColor="green";
+          document.getElementById("Table1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("tin2")){
-          document.getElementById("Table2").style.backgroundColor="green";
+          document.getElementById("Table2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("tin3")){
-          document.getElementById("Table3").style.backgroundColor="green";
+          document.getElementById("Table3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("tin4")){
-          document.getElementById("Table4").style.backgroundColor="green";
+          document.getElementById("Table4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("tin5")){
-          document.getElementById("Table5").style.backgroundColor="green";
+          document.getElementById("Table5").style.backgroundColor="#7DA0CA";
         }
         //List
         if (exercisesId_array.includes("lin1")){
-          document.getElementById("List1").style.backgroundColor="green";
+          document.getElementById("List1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("lin2")){
-          document.getElementById("List2").style.backgroundColor="green";
+          document.getElementById("List2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("lin3")){
-          document.getElementById("List3").style.backgroundColor="green";
+          document.getElementById("List3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("lin4")){
-          document.getElementById("List4").style.backgroundColor="green";
+          document.getElementById("List4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("lin5")){
-          document.getElementById("List5").style.backgroundColor="green";
+          document.getElementById("List5").style.backgroundColor="#7DA0CA";
         }
         //Classes
         if (exercisesId_array.includes("cin1")){
-          document.getElementById("Classes1").style.backgroundColor="green";
+          document.getElementById("Classes1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cin2")){
-          document.getElementById("Classes2").style.backgroundColor="green";
+          document.getElementById("Classes2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cin3")){
-          document.getElementById("Classes3").style.backgroundColor="green";
+          document.getElementById("Classes3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cin4")){
-          document.getElementById("Classes4").style.backgroundColor="green";
+          document.getElementById("Classes4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("cin5")){
-          document.getElementById("Classes5").style.backgroundColor="green";
+          document.getElementById("Classes5").style.backgroundColor="#7DA0CA";
         }
         //Id
         if (exercisesId_array.includes("ver3")){
-          document.getElementById("Id1").style.backgroundColor="green";
+          document.getElementById("Id1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver4")){
-          document.getElementById("Id2").style.backgroundColor="green";
+          document.getElementById("Id2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver5")){
-          document.getElementById("Id3").style.backgroundColor="green";
+          document.getElementById("Id3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver6")){
-          document.getElementById("Id4").style.backgroundColor="green";
+          document.getElementById("Id4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver7")){
-          document.getElementById("Id5").style.backgroundColor="green";
+          document.getElementById("Id5").style.backgroundColor="#7DA0CA";
         }
         //iframe
         if (exercisesId_array.includes("rhy4")){
-          document.getElementById("iframe1").style.backgroundColor="green";
+          document.getElementById("iframe1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy5")){
-          document.getElementById("iframe2").style.backgroundColor="green";
+          document.getElementById("iframe2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy6")){
-          document.getElementById("iframe3").style.backgroundColor="green";
+          document.getElementById("iframe3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy7")){
-          document.getElementById("iframe4").style.backgroundColor="green";
+          document.getElementById("iframe4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy8")){
-          document.getElementById("iframe5").style.backgroundColor="green";
+          document.getElementById("iframe5").style.backgroundColor="#7DA0CA";
         }
         //Script
         if (exercisesId_array.includes("ver8")){
-          document.getElementById("Script1").style.backgroundColor="green";
+          document.getElementById("Script1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ver9")){
-          document.getElementById("Script2").style.backgroundColor="green";
+          document.getElementById("Script2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy1")){
-          document.getElementById("Script3").style.backgroundColor="green";
+          document.getElementById("Script3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy2")){
-          document.getElementById("Script4").style.backgroundColor="green";
+          document.getElementById("Script4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("rhy3")){
-          document.getElementById("Script5").style.backgroundColor="green";
+          document.getElementById("Script5").style.backgroundColor="#7DA0CA";
         }
         //Computercode
         if (exercisesId_array.includes("ccin1")){
-          document.getElementById("Computercode1").style.backgroundColor="green";
+          document.getElementById("Computercode1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ccin2")){
-          document.getElementById("Computercode2").style.backgroundColor="green";
+          document.getElementById("Computercode2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ccin3")){
-          document.getElementById("Computercode3").style.backgroundColor="green";
+          document.getElementById("Computercode3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ccin4")){
-          document.getElementById("Computercode4").style.backgroundColor="green";
+          document.getElementById("Computercode4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ccin5")){
-          document.getElementById("Computercode5").style.backgroundColor="green";
+          document.getElementById("Computercode5").style.backgroundColor="#7DA0CA";
         }
         //Form
         if (exercisesId_array.includes("Fform1")){
-          document.getElementById("Form1").style.backgroundColor="green";
+          document.getElementById("Form1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("Fform2")){
-          document.getElementById("Form2").style.backgroundColor="green";
+          document.getElementById("Form2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("Fform3")){
-          document.getElementById("Form3").style.backgroundColor="green";
+          document.getElementById("Form3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("Fform4")){
-          document.getElementById("Form4").style.backgroundColor="green";
+          document.getElementById("Form4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("Fform5")){
-          document.getElementById("Form5").style.backgroundColor="green";
+          document.getElementById("Form5").style.backgroundColor="#7DA0CA";
         }
         //FormAttri
         if (exercisesId_array.includes("FAttr1")){
-          document.getElementById("FormAttri1").style.backgroundColor="green";
+          document.getElementById("FormAttri1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FAttr2")){
-          document.getElementById("FormAttri2").style.backgroundColor="green";
+          document.getElementById("FormAttri2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FAttr3")){
-          document.getElementById("FormAttri3").style.backgroundColor="green";
+          document.getElementById("FormAttri3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FAttr4")){
-          document.getElementById("FormAttri4").style.backgroundColor="green";
+          document.getElementById("FormAttri4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FAttr5")){
-          document.getElementById("FormAttri5").style.backgroundColor="green";
+          document.getElementById("FormAttri5").style.backgroundColor="#7DA0CA";
         }
         //FormElem
         if (exercisesId_array.includes("FEq1")){
-          document.getElementById("FormElem1").style.backgroundColor="green";
+          document.getElementById("FormElem1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FEq2")){
-          document.getElementById("FormElem2").style.backgroundColor="green";
+          document.getElementById("FormElem2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FEq3")){
-          document.getElementById("FormElem3").style.backgroundColor="green";
+          document.getElementById("FormElem3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FEq4")){
-          document.getElementById("FormElem4").style.backgroundColor="green";
+          document.getElementById("FormElem4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("FEq5")){
-          document.getElementById("FormElem5").style.backgroundColor="green";
+          document.getElementById("FormElem5").style.backgroundColor="#7DA0CA";
         }
         //InputType
         if (exercisesId_array.includes("ITq1")){
-          document.getElementById("InputType1").style.backgroundColor="green";
+          document.getElementById("InputType1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ITq2")){
-          document.getElementById("InputType2").style.backgroundColor="green";
+          document.getElementById("InputType2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ITq3")){
-          document.getElementById("InputType3").style.backgroundColor="green";
+          document.getElementById("InputType3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ITq4")){
-          document.getElementById("InputType4").style.backgroundColor="green";
+          document.getElementById("InputType4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("ITq5")){
-          document.getElementById("InputType5").style.backgroundColor="green";
+          document.getElementById("InputType5").style.backgroundColor="#7DA0CA";
         }
         //InputAttri
         if (exercisesId_array.includes("IAq1")){
-          document.getElementById("InputAttri1").style.backgroundColor="green";
+          document.getElementById("InputAttri1").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("IAq2")){
-          document.getElementById("InputAttri2").style.backgroundColor="green";
+          document.getElementById("InputAttri2").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("IAq3")){
-          document.getElementById("InputAttri3").style.backgroundColor="green";
+          document.getElementById("InputAttri3").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("IAq4")){
-          document.getElementById("InputAttri4").style.backgroundColor="green";
+          document.getElementById("InputAttri4").style.backgroundColor="#7DA0CA";
         }
         if (exercisesId_array.includes("IAq5")){
-          document.getElementById("InputAttri5").style.backgroundColor="green";
+          document.getElementById("InputAttri5").style.backgroundColor="#7DA0CA";
         }
     } else {
         alert( userAsnwer + " is wrong!");
