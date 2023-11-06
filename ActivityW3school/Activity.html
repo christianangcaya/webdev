@@ -702,122 +702,328 @@
         <!-- CSS Part -->
         <div class="outer-container" id="CSS1s" style="display: none;">
             <div class="q-container">
-                <h5>"CSS Question: Exercise1</h5>
+                <h5>CSS Exercise1: <br> Make the paragraph in color "red".</h5>
             </div>
             <div class="code-container">
-                <h5>"CSS Code: Exercise1</h5> 
+                <h5 id="anscss1" ansValue="red">Code:
+                <br>
+                &lt;!DOCTYPE html&gt;
+                <br>
+                &lt;html&gt;
+                <br>
+                &lt;style&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;p { 
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:<input id="userInput1" maxlength="3" style="width: 25px;">
+                <br>
+                &nbsp;&nbsp;&nbsp; } 
+                <br>
+                &lt;/style&gt;
+                <br>
+                &lt;/head&gt;  
+                <br>
+                &lt;body&gt;
+                <br>
+                &lt;p&gt;This is a sample text.&lt;/p&gt;
+                <br>
+                &lt;/body&gt;
+                <br>
+                &lt;/html&gt;
+                <br>
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>"CSS Output: Exercise1</h5>
+                <h5>
+                    <p style="color: red;">This is a sample text.</p>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anscss1', 'userInput1')">Submit</a>
         </div>
 
         <div class="outer-container" id="CSS2s" style="display: none;">
             <div class="q-container">
-                <h5>"CSS Question: Exercise2</h5>
+                <h5>CSS Exercise 2: <br> Place the "Hello World" at the center.</h5>
             </div>
             <div class="code-container">
-                <h5>"CSS Code: Exercise2</h5> 
+                <h5 id="anscss2" ansValue="0 auto">Code:
+                <br> 
+                &lt;!DOCTYPE html&gt;
+                <br>
+                &lt;html&gt;
+                <br>
+                &lt;head&gt;
+                <br>
+                &lt;style&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; div {
+                <br>
+                &nbsp;&nbsp;&nbsp;width: 200px;
+                <br>
+                &nbsp;&nbsp;&nbsp;height: 200px;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightgray;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;margin: <input id="userInput2" maxlength="6" style="width: 40px;"> ;
+                <br>  
+                } 
+                <br>
+                &lt;/style&gt;
+                <br>
+                &lt;/head&gt;
+                <br>
+                &lt;body&gt;
+                <br>
+                &lt;div&gt;
+                <br>
+                &nbsp;&nbsp;&lt;h1&gt;Hello World&lt;/h1&gt;
+                <br>
+                &lt;/div&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>"CSS Output: Exercise2</h5>
+                <h5>Output:</h5>
+                <h5>
+                    <div style="width: 200px; height: 100px;background-color: lightgray; margin: 0 auto;" >
+                        <h1>Hello World</h1>
+                    </div> 
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anscss2','userInput2')">Submit</a>
         </div>
 
         <div class="outer-container" id="CSS3s" style="display: none;">
             <div class="q-container">
-                <h5>"CSS Question: Exercise3</h5>
+                <h5>"CSS Question 3: <br> Make the border solid black and size of the border is 2px.</h5>
             </div>
             <div class="code-container">
-                <h5>"CSS Code: Exercise3</h5> 
+                <h5 id="anscss3" ansValue="2px solid black">Code:
+                <br>
+                &lt;!DOCTYPE html&gt;
+                <br>
+                &lt;html&gt;
+                <br>
+                &lt;head&gt;
+                <br>
+                &lt;style&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; div {
+                <br>
+                &nbsp;&nbsp;&nbsp;width: 100px;
+                <br>
+                &nbsp;&nbsp;&nbsp;height: 100px;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;border: <input id="userInput3" maxlength="15" style="width: 100px;"> ;
+                <br>  
+                } 
+                <br>
+                &lt;/style&gt;
+                <br>
+                &lt;/head&gt;
+                <br>
+                &lt;body&gt;
+                <br>
+                &lt;div&gt;&lt;/div&gt;
+                <br>
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>"CSS Output: Exercise3</h5>
+                <div style="width: 100px; height: 100px; border: 2px solid black;"></div>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anscss3','userInput3')">Submit</a>
         </div>
+        
 
         <div class="outer-container" id="CSS4s" style="display: none;">
             <div class="q-container">
-                <h5>"CSS Question: Exercise4</h5>
+                <h5>CSS Question 4:<br> 
+                    Change the background color of the button frome lightblue to blueviolet when you hover it.
+                </h5>
             </div>
             <div class="code-container">
-                <h5>"CSS Code: Exercise4</h5> 
+                <h5 id="anscss4" ansValue="blueviolet">Code:
+                    <br>
+                    &lt;!DOCTYPE html&gt;
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;style&gt;
+                    <br> 
+                    &nbsp;&nbsp;button {
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightblue;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: #333;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;padding: 10px 20px;
+                    <br>
+                    }
+                    <br> 
+                    &nbsp;&nbsp;button:hover {
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color:<input id="userInput4" maxlength="10" style="width: 100px;"> ;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; color: white ; <br>
+                    } 
+                    <br>
+                    &lt;/style&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;button&gt;Hover Me&lt;/button&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>"CSS Output: Exercise4</h5>
+                <style>
+                    button {
+                      background-color: lightblue;
+                      color: #333;
+                      padding: 10px 20px;
+                    }
+                   
+                    button:hover {
+                      background-color: blueviolet;
+                      color: white;
+                    }
+                </style>
+                </head>
+                <body>
+                    <button>Hover Me</button>
+                </body>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anscss4' , 'userInput4')">Submit</a>
         </div>
 
         <div class="outer-container" id="CSS5s" style="display: none;">
             <div class="q-container">
-                <h5>"CSS Question: Exercise5</h5>
+                <h5>"CSS Question 5: <br> Set the size of the paragraph to 50px. </h5>
             </div>
             <div class="code-container">
-                <h5>"CSS Code: Exercise5</h5> 
+                <h5 id="anscss5" ansValue="50px">Code:
+                    <br>
+                    &lt;!DOCTYPE html&gt;
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;style&gt;
+                    <br>
+                    &nbsp;&nbsp;p {
+                    <br>
+                    &nbsp;&nbsp; &nbsp;&nbsp;font-size:<input id="userInput5" maxlength="4" style="width: 30px;">;
+                    <br>
+                    }
+                    <br>
+                    &lt;/style&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;p&gt;This is some text with a font size.&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>"CSS Output: Exercise5</h5>
+                <h5>Output:</h5>
+                <p style="font-size: 50px;">This is some text with a font size.</p>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anscss5' , 'userInput5')">Submit</a>
         </div>
         <!-- Links Part -->
         <div class="outer-container" id="Link1s" style="display: none;">
             <div class="q-container">
-                <h5>Links Question: Exercise1</h5>
+                <h5> Link Exercise 1: <br> Create a link to a "Introduction" section of a web page</h5>
             </div>
             <div class="code-container">
-                <h5>Links Code: Exercise1</h5> 
+                <h5 id="anslinks1" ansValue="introduction">Code:
+                    <br>
+                    &lt;a href="#<input id="userInput01" maxlength="12" style="width: 80px;">&gt;Click here to go to the Introduction section.&lt;/a&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Links Output: Exercise1</h5>
+                <h5>Output:</h5>
+                <h5><a href="#introduction">Click here to go to the Introduction section.</a></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anslinks1' , 'userInput01')">Submit</a>
         </div>
 
         <div class="outer-container" id="Link2s" style="display: none;">
             <div class="q-container">
-                <h5>Links Question: Exercise2</h5>
+                <h5>Link Exercise 2: <br> Create a link to an email address (johndoe@example.com).</h5>
             </div>
             <div class="code-container">
-                <h5>Links Code: Exercise2</h5> 
+                <h5 id="anslinks2" ansValue="mailto:johndoe@example.com">Code: 
+                    <br>
+                    &lt;a href="<input id="userInput02" maxlength="26" style="width: 180px;">"&gt;Send me an email&lt;/a&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Links Output: Exercise2</h5>
+                <h5>Output:</h5> 
+                    <h5><a href="mailto:johndoe@example.com">Send me an email</a></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anslinks2' , 'userInput02')">Submit</a>
         </div>
 
         <div class="outer-container" id="Link3s" style="display: none;">
             <div class="q-container">
-                <h5>Links Question: Exercise3</h5>
+                <h5>Link Exercise 3: <br>Create a link that goes to the Google homepage.</h5>
             </div>
             <div class="code-container">
-                <h5>Links Code: Exercise3</h5> 
+                <h5 id="anslinks3" ansValue="https://www.google.com">Code: 
+                    <br>
+                    &lt;a href="<input id="userInput03" maxlength="22" style="width: 140px;">"&gt;Google&lt;/a&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Links Output: Exercise3</h5>
+                <h5>Output:</h5>
+                <h5><a href="https://www.google.com">Google</a></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anslinks3' , 'userInput03')">Submit</a>
         </div>
 
         <div class="outer-container" id="Link4s" style="display: none;">
             <div class="q-container">
-                <h5>Links Question: Exercise4</h5>
+                <h5>Links Exercise 4: <br> Use CSS to remove the underline from the link.</h5>
             </div>
             <div class="code-container">
-                <h5>Links Code: Exercise4</h5> 
+                <h5 id="anslinks4" ansValue="text-decoration: none">Code:
+                    <br>
+                    &lt;a href="html_images.asp" style="<input id="userInput04" maxlength="21" style="width: 130px;">;"&gt;HTML Images&lt;/a&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Links Output: Exercise4</h5>
+                <h5>Output:</h5>
+                <h5><a href="html_images.asp" style="text-decoration: none;">HTML Images</a></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anslinks4' , 'userInput04')">Submit</a>
         </div>
 
         <div class="outer-container" id="Link5s" style="display: none;">
             <div class="q-container">
-                <h5>Links Question: Exercise5</h5>
+                <h5>Links Exercise 5: <br>Use the correct HTML to create a link with the text "Download File" that downloads a file named "myfile.pdf".</h5>
             </div>
             <div class="code-container">
-                <h5>Links Code: Exercise5</h5> 
+                <h5 id="anslinks5" ansValue="myfile.pdf">Code:
+                    <br>
+                    &lt;a href="myfile.pdf" download="<input id="userInput05" maxlength="10" style="width: 60px;">"&gt;File Download&lt;/a&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Links Output: Exercise5</h5>
+                <h5>Output:</h5>
+                <h5><a href="myfile.pdf" download="myfile.pdf">Download File</a></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('anslinks5' , 'userInput05')">Submit</a>
         </div>
         <!-- Images Part -->
         <div class="outer-container" id="Image1s" style="display: none;">
@@ -2602,7 +2808,7 @@
                 <h5>Create a dropdown with only 3 visible values:</h5>
             </div>
             <div class="code-container">
-                <h5 c>Code:
+                <h5 id="FEq5" ansValue='maxlength="6"'>Code:
                     <br>
                     &lt;form action="/action_page.php"&gt;
                     <br>
@@ -2785,7 +2991,7 @@
                 <h5>Using value Attribute add an initial value name "Firstname" for this input field:</h5>
             </div>
             <div class="code-container">
-                <h5 id="IAq1" ansValue='value="Firstname'>Code:
+                <h5 id="IAq1" ansValue='value="Firstname"'>Code:
                     <br>
                     &lt;form&gt;
                     <br>
@@ -2904,7 +3110,6 @@
             </div>
             <a class="submit-btn" onclick="checkAnswer('IAq5','IAIq5')">Submit</a>
         </div>
-
         <!--<a class="submit-btn">Submit</a>-->
     </div>
     <script src="Activity_Script.js" class="submit-btns" type="text/javascript"></script>
