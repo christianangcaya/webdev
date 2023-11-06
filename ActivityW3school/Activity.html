@@ -3061,66 +3061,217 @@
             <a class="submit-btn" onclick="checkAnswer('Fform5','Form5')">Submit</a>
             <a class="show-btn" onclick="showAnswer('Fform5')">Show Ans</a>
         </div>
-        <!-- Form Attributes Part -->
-        <div class="outer-container" id="FormAttri1s" style="display: none;">
+                <!--CODE for Form Attribute Exer1-->
+        <div class="outer-container" id="FormAtt1" style="display: none;">
             <div class="q-container">
-                <h5>FormAttris Question: Exercise1</h5>
+                <h5>Insert the Target Attribute Value that will display the response in a new tab.
+                </h5>
             </div>
-            <div class="code-container">
-                <h5>FormAttris Code: Exercise1</h5> 
-            </div>
-            <div class="op-container">
-                <h5>FormAttris Output: Exercise1</h5>
-            </div>
+        <div class="code-container">
+            <h5 id="FAttr1" ansValue="_blank">Code:
+        &lt;html&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+        
+        &lt;h2&gt;Contact Information Form&lt;/h2&gt;
+        <br>
+        
+        &lt;p&gt;As you submit this form,it will automatically lead you to another browser tab that will display the response.&lt;/p&gt;
+        <br>
+        &lt;form action="/action_page.php" target="<input id = "Fatt1" style="width:50px;" name="attribute_info">"&gt;<br>
+            &lt;label for="fname"&gt;Full Name:&lt;/label&gt;
+            <br>
+            &lt;input type="text" id="fname" name="fname" value="John Hope"&gt;<br>
+            &lt;label for="lname"&gt;Contact Number:&lt;/label&gt;<br>
+            &lt;input type="text" id="Cnumb" name="Cnumb" value="09223345675"&gt;<br><br>
+            &lt;label for="lname"&gt;Email:&lt;/label&gt;<br>
+            &lt;input type="text" id="Emll" name="Emll" value="fullofhope@gmail.com"&gt;<br><br>
+            &lt;input type="submit" value="Submit"&gt;
+        <br>
+        &lt;/form&gt;
+        <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+        </h5> 
         </div>
-
-        <div class="outer-container" id="FormAttri2s" style="display: none;">
+        <!--OUTPUT-->
+        <div class="op-container">
+            <h5>
+        <html>
+        <body>
+        
+        <h2>Contact Information Form</h2>
+        
+        <p>As you submit this form,it will automatically lead you to another browser tab that will display the response.</p>
+        
+        <form action="/action_page.php" target="_blank">
+            <label for="fname">Full Name:</label><br>
+            <input type="text" id="fname" name="fname" value="John Hope"><br>
+            <label for="lname">Contact Number:</label><br>
+            <input type="text" id="Cnumb" name="Cnumb" value="09223345675"><br><br>
+            <label for="lname">Email:</label><br>
+            <input type="text" id="Emll" name="Emll" value="fullofhope@gmail.com"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        
+        </body>
+        </html>
+        </h5>
+        </div>
+        <a class="submit-btn" onclick="checkAnswer('FAttr1','Fatt1')">Submit</a>
+                    <a class="show-btn" onclick="showAnswer('FAttr1')">Show Ans</a>
+        </div>
+        
+        <!--CODE for Form Attribute Exer2-->
+        <div class="outer-container" id="Form1s" style="display: none;">
             <div class="q-container">
-                <h5>FormAttris Question: Exercise2</h5>
+                <h5>Fill the blankspace with the Method Attribute Value use to append its data to the URL that been sent to the server.
+                </h5>
             </div>
-            <div class="code-container">
-                <h5>FormAttris Code: Exercise2</h5> 
-            </div>
-            <div class="op-container">
-                <h5>FormAttris Output: Exercise2</h5>
-            </div>
+        <div class="code-container">
+            <h5 id="FAttr2" ansValue="get">Code:
+        &lt;html&gt;
+        <br>
+        &lt;body&gt;
+        <br>
+        
+        &lt;h2&gt;Process Form&lt;/h2&gt;
+        <br>
+        
+        &lt;p&gt;This information will help us to provide you efficient service.&lt;/p&gt;
+        <br>
+        &lt;form action="process_form.php" method="<input id = "Fatt2" style="width:50px;" name="attribute_info">"&gt;<br>
+            &lt;label for="Name"&gt;Name:&lt;/label&gt;
+            <br>
+            &lt;input type="text" id="Name" name="Name" value="Paul"&gt;<br>
+            &lt;label for="lname"&gt;Email:&lt;/label&gt;<br>
+            &lt;input type="text" id="Emll" name="Emll" value="fullofhope@gmail.com"&gt;<br><br>
+            &lt;input type="submit" value="Submit"&gt;
+        <br>
+        &lt;/form&gt;
+        <br>
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+        </h5> 
         </div>
-
-        <div class="outer-container" id="FormAttri3s" style="display: none;">
+        <!--OUTPUT-->
+        <div class="op-container">
+            <h5>
+        <html>
+        <body>
+        <h2>Process Form</h2>
+        <p>This information will help us to provide you efficient service.</p>
+        <form action="process_form.php" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        </body>
+        </html>
+        </h5>
+        </div>
+        <a class="submit-btn" onclick="checkAnswer('FAttr2','Fatt2')">Submit</a>
+                    <a class="show-btn" onclick="showAnswer('FAttr2')">Show Ans</a>
+        </div>
+        
+        <!--CODE for Form Attribute Exer3-->
+        <div class="outer-container" id="FormAtt1" style="display: none;">
             <div class="q-container">
-                <h5>FormAttris Question: Exercise3</h5>
-            </div>
-            <div class="code-container">
-                <h5>FormAttris Code: Exercise3</h5> 
-            </div>
-            <div class="op-container">
-                <h5>FormAttris Output: Exercise3</h5>
-            </div>
+                <h5>Specify what method is use to predict the value.
+                </h5>
+        <div class="code-container">
+        <h5 id="FAttr3" ansValue="autocomplete">Code:
+            &lt;form action="/action_page.php" <input id = "Fatt3" style="width:50px;" name="attribute_info">="on"&gt;
+            &lt;label for="Number"&gt;Number:&lt;/label&gt;
+            &lt;input type="text" id="Numb" name="Numb"&gt;<br><br>
+            &lt;input type="submit"&gt;
+        </h5>
+        </div> 
+        <!--Output-->
+        <div class="op-container">
+            <h5>
+                <html>
+                <body>
+                <form action="/action_page.php" autocomplete="on">
+                <label for="Number">Number:</label>
+                <input type="text" id="Numb" name="Numb"><br><br>
+                <input type="submit">
+                </form>
+                </body>
+                </html>
+            </h5>
         </div>
-
-        <div class="outer-container" id="FormAttri4s" style="display: none;">
+        <a class="submit-btn" onclick="checkAnswer('FAttr3','Fatt3')">Submit</a>
+        <a class="show-btn" onclick="showAnswer('FAttr3')">Show Ans</a>
+        </div>
+        
+        <!--CODE for Form Attribute Exer4-->
+        <div class="outer-container" id="FormAtt1" style="display: none;">
             <div class="q-container">
-                <h5>FormAttris Question: Exercise4</h5>
-            </div>
-            <div class="code-container">
-                <h5>FormAttris Code: Exercise4</h5> 
-            </div>
-            <div class="op-container">
-                <h5>FormAttris Output: Exercise4</h5>
-            </div>
+                <h5>Add the boolean attribute, when its there, it indicates that upon submission, the data shouldn't need to be validated after its submitted.
+                </h5>
+        <div class="code-container">
+        <h5 id="FAttr4" ansValue="novalidate">Code:
+            &lt;form action="/action_page.php" <input id = "Fatt4" style="width:50px;" name="attribute_info">="on"&gt;
+            &lt;label for="Uname"&gt;Username:&lt;/label&gt;
+            &lt;input type="text" id="Uname" name="Uname"&gt;<br><br>
+            &lt;input type="submit"&gt;
+        </h5>
+        </div> 
+        <!--Output-->
+        <div class="op-container">
+            <h5>
+                <html>
+                <body>
+                <form action="/action_page.php" novalidate>
+                <label for="Uname">Username:</label>
+                <input type="text" id="Uname" name="Uname"><br><br>
+                <input type="submit">
+                </form>
+                </body>
+                </html>
+            </h5>
         </div>
-
-        <div class="outer-container" id="FormAttri5s" style="display: none;">
+        <a class="submit-btn" onclick="checkAnswer('FAttr4','Fatt4')">Submit</a>
+        <a class="show-btn" onclick="showAnswer('FAttr4')">Show Ans</a>
+        </div>
+        
+        <!--CODE for Form Attribute Exer5-->
+        <div class="outer-container" id="FormAtt1" style="display: none;">
             <div class="q-container">
-                <h5>FormAttris Question: Exercise5</h5>
-            </div>
-            <div class="code-container">
-                <h5>FormAttris Code: Exercise5</h5> 
-            </div>
-            <div class="op-container">
-                <h5>FormAttris Output: Exercise5</h5>
-            </div>
+                <h5>Use the target attribute and specify the value use to display the response in current window.
+                </h5>
+        <div class="code-container">
+        <h5 id="FAttr5" ansValue='target="_self"'>Code:
+            &lt;form action="/action_page.php" <input id = "Fatt5" style="width:90px;" name="attribute_info">&gt;
+            &lt;label for="fulname"&gt;Full name:&lt;/label&gt;
+            &lt;input type="text" id="fulname" name="fulname" value="Sophie Serene"&gt;<br><br>
+            &lt;input type="submit"&gt;
+        </h5>
+        </div> 
+        <!--Output-->
+        <div class="op-container">
+            <h5>
+                <html>
+                <body>
+                <form action="/action_page.php" target="_self">
+                <label for="fulname">Full name:</label>
+                <input type="text" id="fulname" name="fulname"><br><br>
+                <input type="submit">
+                </form>
+                </body>
+                </html>
+            </h5>
         </div>
+        <a class="submit-btn" onclick="checkAnswer('FAttr5','Fatt5')">Submit</a>
+        <a class="show-btn" onclick="showAnswer('FAttr5')">Show Ans</a>
+        </div>
+  
         <!-- Form Element Part -->
         <div class="outer-container" id="FormElem1s" style="display: none;">
             <div class="q-container">
