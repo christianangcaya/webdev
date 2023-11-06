@@ -2553,7 +2553,7 @@
                 </h5>
             </div>
             <div class="code-container">
-                <h5 id="Fform1" ansValue="&lt;text&gt;">Code:
+                <h5 id="Fform1" ansValue="text">Code:
                     <br>
                     &lt;html&gt;
                     <br>
@@ -2563,7 +2563,7 @@
                     <br>
                     &lt;label for = "Crs"&gt;Course:&lt;/label&gt; 
                     <br>
-                    &lt;input type=<input id = "Form1" style="width:50px;" name="attribute_info">id="Crs" name="Crs" value="BSIT"&gt; 
+                    &lt;input type="<input id = "Form1" style="width:50px;" name="attribute_info">"id="Crs" name="Crs" value="BSIT"&gt; 
                     <br>
                     &lt;label for= "Yr"&gt;Year:&lt;/label&gt; 
                     <br>
@@ -2596,14 +2596,57 @@
 
         <div class="outer-container" id="Form2s" style="display: none;">
             <div class="q-container">
-                <h5>Forms Question: Exercise2</h5>
+                <h5>Define the button type that will let the user pick one of the choices provided.</h5>
             </div>
             <div class="code-container">
-                <h5>Forms Code: Exercise2</h5> 
+                <h5 id="Fform2" ansValue="radio">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &lt;p&gt; Pick the song genre/s you always have on your playlist.&lt;/p&gt;
+                    <br>
+                    &lt;form&gt;
+                    <br>
+                    &lt;input type= <input id = "Form2" style="width:50px;" name="attribute_info"> id="Pop" name="Fav_genre" value="Pop"&gt;
+                    <br>
+                    &lt;label for = "Pop"&gt;Pop&lt;/label&gt; 
+                    <br>
+                    &lt;input type="radio" id="Jazz" name="Fav_genre" value="Jazz"&gt;
+                    <br>
+                    &lt;label for= "Jazz"&gt;Jazz&lt;/label&gt; 
+                    <br>
+                    &lt;input type= "radio" id="Cmusic" name="Fav_genre" value="Country Music"&gt; 
+                    <br>
+                    &lt;label for= "Country Music"&gt;Country Music&lt;/label&gt; 
+                    <br>
+                    &lt;/form&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Forms Output: Exercise2</h5>
+                <h5>
+                    <html>
+                    <body>
+                    <p> Pick the song genre/s you always have on your playlist.</p>
+                    <form>
+                    <input type="radio" id="Pop" name="Fav_genre" value="Pop">
+                    <label for = "Pop">Pop</label>
+                    <input type="radio" id="Jazz" name="Fav_genre" value="Jazz">
+                    <label for= "Jazz">Jazz</label> 
+                    <input type= "radio" id="Cmusic" name="Fav_genre" value="Country Music">
+                    <label for= "Country Music">Country Music</label> 
+                    </form>
+                    &lt;/body&gt;
+                    &lt;/html&gt; 
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('Fform2','Form2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('Fform2')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Form3s" style="display: none;">
