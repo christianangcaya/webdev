@@ -2754,14 +2754,55 @@
 
         <div class="outer-container" id="Form5s" style="display: none;">
             <div class="q-container">
-                <h5>Forms Question: Exercise5</h5>
+                <h5>Create a contact information form that will be submitted into specific file. Use submit button as input type with a value of submit.</h5>
             </div>
             <div class="code-container">
-                <h5>Forms Code: Exercise5</h5> 
+                <h5 id="Fform5" ansValue="input type="submit" value="Submit"">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &lt;h1&gt;Contact Info. Form&lt;/h1&gt;
+                    <br>
+                    &lt;form action="submit_form.php" method="post"&gt;
+                    <br>
+                    &lt;label for="name"&gt;Name:&lt;/label&gt;
+                    <br>
+                    &lt;input type="text" id="name" name="name" required&gt;
+                    <br>
+                    &lt;label for="email"&gt;Email:&lt;/label&gt;
+                    <br>
+                    &lt;input type="email" id="email" name="email" required&gt;
+                    <br>
+                    &lt;<input id = "Form5" style="width:50px;" name="attribute_info">&gt;
+                    <br>
+                    &lt;/form&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Forms Output: Exercise5</h5>
+                <h5>
+                    <html>
+                    <body>
+                        <h1>Contact Info. Form</h1>
+
+                   <form action="submit_form.php" method="post">
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="name" required><br><br>
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" name="email" required><br><br>
+                   <input type="submit" value="Submit">
+                   </form>
+                   </body>
+                   </html>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('Fform5','Form5')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('Fform5')">Show Ans</a>
         </div>
         <!-- Form Attributes Part -->
         <div class="outer-container" id="FormAttri1s" style="display: none;">
