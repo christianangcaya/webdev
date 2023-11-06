@@ -399,6 +399,119 @@ function checkAnswer(questionId, inputId){
         if (exercisesId_array.includes("ver7")){
           document.getElementById("Id5").style.backgroundColor="green";
         }
+        //iframe
+        if (exercisesId_array.includes("rhy4")){
+          document.getElementById("iframe1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy5")){
+          document.getElementById("iframe2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy6")){
+          document.getElementById("iframe3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy7")){
+          document.getElementById("iframe4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy8")){
+          document.getElementById("iframe5").style.backgroundColor="green";
+        }
+        //Script
+        if (exercisesId_array.includes("ver8")){
+          document.getElementById("Script1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ver9")){
+          document.getElementById("Script2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy1")){
+          document.getElementById("Script3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy2")){
+          document.getElementById("Script4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("rhy3")){
+          document.getElementById("Script5").style.backgroundColor="green";
+        }
+        //Computercode
+        if (exercisesId_array.includes("ccin1")){
+          document.getElementById("Computercode1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ccin2")){
+          document.getElementById("Computercode2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ccin3")){
+          document.getElementById("Computercode3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ccin4")){
+          document.getElementById("Computercode4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ccin5")){
+          document.getElementById("Computercode5").style.backgroundColor="green";
+        }
+        //Form
+        if (exercisesId_array.includes("Fform1")){
+          document.getElementById("Form1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("Fform2")){
+          document.getElementById("Form2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("Fform3")){
+          document.getElementById("Form3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("Fform4")){
+          document.getElementById("Form4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("Fform5")){
+          document.getElementById("Form5").style.backgroundColor="green";
+        }
+        //FormAttri
+        if (exercisesId_array.includes("FAttr1")){
+          document.getElementById("FormAttri1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FAttr2")){
+          document.getElementById("FormAttri2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FAttr3")){
+          document.getElementById("FormAttri3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FAttr4")){
+          document.getElementById("FormAttri4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FAttr5")){
+          document.getElementById("FormAttri5").style.backgroundColor="green";
+        }
+        //FormElem
+        if (exercisesId_array.includes("FEq1")){
+          document.getElementById("FormElem1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FEq2")){
+          document.getElementById("FormElem2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FEq3")){
+          document.getElementById("FormElem3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FEq4")){
+          document.getElementById("FormElem4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("FEq5")){
+          document.getElementById("FormElem5").style.backgroundColor="green";
+        }
+        //InputType
+        if (exercisesId_array.includes("ITq1")){
+          document.getElementById("InputType1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ITq2")){
+          document.getElementById("InputType2").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ITq3")){
+          document.getElementById("InputType3").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ITq4")){
+          document.getElementById("InputType4").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("ITq5")){
+          document.getElementById("InputType5").style.backgroundColor="green";
+        }
+
 
 
 
