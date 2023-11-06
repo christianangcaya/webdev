@@ -2707,14 +2707,46 @@
 
         <div class="outer-container" id="Form4s" style="display: none;">
             <div class="q-container">
-                <h5>Forms Question: Exercise4</h5>
+                <h5>In the form below,use text field to input text for the full name of the user,with the value of Van as the first name and Loof as the Surname.</h5>
             </div>
             <div class="code-container">
-                <h5>Forms Code: Exercise4</h5> 
+                <h5 id="Fform4" ansValue="text">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &lt;form&gt;
+                    <br>
+                    &lt;label for="fname"&gt;First name:&lt;/label&gt;
+                    <br>
+                    &lt;input type="<input id = "Form4" style="width:50px;" name="attribute_info">" id="fname" name="fname" value="<input id = "Form4" style="width:50px;" name="attribute_info">"&gt;
+                    <br>
+                    &lt;label for="lname"&gt;Last name:&lt;/label&gt;
+                    <br>
+                    &lt;input type="<input id = "Form4" style="width:50px;" name="attribute_info">" id="lname" name="lname" value="<input id = "Form4" style="width:50px;" name="attribute_info">"&gt;
+                    &lt;/form&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Forms Output: Exercise4</h5>
+                <h5>
+                    <html>
+                    <body>
+
+                    <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="Van"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Loof">
+                    </form>
+                    </body>
+                    </html>
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('Fform4','Form4')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('Fform4')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Form5s" style="display: none;">
