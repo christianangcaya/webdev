@@ -161,7 +161,7 @@ function reply_click(clicked_id){
     remove();
     document.getElementById(clicked_id+"s").style.display = "block";
 }
-
+const exercisesId_array = [];
 function checkAnswer(questionId, inputId){
     // Get specific question by ID
     var thisQuestionId = document.getElementById(questionId);
@@ -172,6 +172,9 @@ function checkAnswer(questionId, inputId){
     // Checks if user input is same with set correct answer
     if (ans === userAsnwer){
         alert( userAsnwer + " is correct!");
+        if (!(exercisesId_array.includes(questionId))){
+          progress(questionId);
+        }
     } else {
         alert( userAsnwer + " is wrong!");
     }
@@ -204,4 +207,11 @@ function showAnswer(questionId) {
    }
    
  }
+ var done_exercises = 0;
+function progress(exercisesId){
+  progressBar = document.getElementById("progressId");
+  done_exercises++;
+  progressBar.textContent = "Completed " + done_exercises.toString() + "of 110 Exercises:";
+  exercisesId_array.push(exercisesId);
+}
 
