@@ -2583,7 +2583,7 @@
                     <form>
                     <label for = "Crs">Course:</label>
                     <input type="text"id="Crs" name="Crs" value="BSIT">
-                    <label for= "Yr">;Year:</label>
+                    <label for= "Yr">Year:</label>
                     <input type="text"id="Yr" name="Yr" value="First Year">
                     </form>
                     </body>
@@ -2651,14 +2651,58 @@
 
         <div class="outer-container" id="Form3s" style="display: none;">
             <div class="q-container">
-                <h5>Forms Question: Exercise3</h5>
+                <h5>By using this type, it will let the user select Zero or More options. Fill the blankspace of the type used.</h5>
             </div>
             <div class="code-container">
-                <h5>Forms Code: Exercise3</h5> 
+                <h5 id="Fform3" ansValue="checkbox">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &lt;form action="/action_page.php"&gt;
+                        &lt;input type="<input id = "Form3" style="width:50px;" name="attribute_info">" id="Ariana" name="Ari_name" value="Ariana Grande"&gt;
+                        <br>
+                        &lt;label for="Ari_name"&gt; Ariana Grande&lt;/label&gt;
+                        <br>
+                        &lt;input type="<input id = "Form3" style="width:50px;" name="attribute_info">" id="Justin" name="Jus_name" value="Justin Bieber"&gt;
+                        <br>
+                        &lt;label for="Jus_name"&gt; Justin Bieber&lt;/label&gt;
+                        <br>
+                        &lt;input type="<input id = "Form3" style="width:50px;" name="attribute_info">" id="Taylor" name="Tay_name" value="Taylor Swift"&gt;
+                        <br>
+                        &lt;label for="Tay_name"&gt; Taylor Swift&lt;/label&gt;
+                        <br>
+                    &lt;/form&gt; 
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Forms Output: Exercise3</h5>
+                <h5>
+                    <html>
+                    <body>
+
+                    <p>Pick your favourite Music Artist/s<p>
+
+                    <form action="/action_page.php">
+                       <input type="checkbox" id="Ariana" name="Ari_name" value="Ariana Grande">
+                       <label for="Ari_name"> Ariana Grande</label><br>
+                       <input type="checkbox" id="Justin" name="Jus_name" value="Justin Bieber">
+                       <label for="Jus_name"> Justin Bieber</label><br>
+                       <input type="checkbox" id="Taylor" name="Tay_name" value="Taylor Swift">
+                       <label for="Tay_name"> Taylor Swift</label><br>
+                    </form> 
+
+                    </body>
+                    </html>
+
+                </h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('Fform3','Form3')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('Fform3')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Form4s" style="display: none;">
