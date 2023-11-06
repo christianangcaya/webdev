@@ -511,6 +511,22 @@ function checkAnswer(questionId, inputId){
         if (exercisesId_array.includes("ITq5")){
           document.getElementById("InputType5").style.backgroundColor="green";
         }
+        //InputAttri
+        if (exercisesId_array.includes("IAq1")){
+          document.getElementById("InputAttri").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("IAq2")){
+          document.getElementById("InputAttri").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("IAq3")){
+          document.getElementById("InputAttri").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("IAq4")){
+          document.getElementById("InputAttri").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("IAq5")){
+          document.getElementById("InputAttri").style.backgroundColor="green";
+        }
 
 
 
