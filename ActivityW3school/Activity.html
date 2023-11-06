@@ -339,186 +339,425 @@
             <a class="show-btn" onclick="showAnswer('ver2')">Show Ans</a>
         </div>
         
-        <!-- Heading Part -->
+                <!-- Heading Part -->
         <div class="outer-container" id="Heading1s" style="display: none;">
             <div class="q-container">
-                <h5>Headings Question: Exercise1</h5>
+                <h5> Use the appropriate HTML tags to create a heading structure for a webpage with the following content: "Welcome to ICS"</h5>  
             </div>
             <div class="code-container">
-                <h5>Headings Code: Exercise1</h5> 
+                <h5 id="hed1" ansValue="&lt;h1&gt;">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;<input id = "hid1" style="width:100px;" name="attribute_info">"Welcome to ICS" &lt;/h1&gt;
+                    <br>
+                    &lt;p&gt;ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Headings Output: Exercise1</h5>
+                <h5>Output:
+                    <br>
+                <h1>Welcome to ICS</h1>
+                <h5><p>ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.</p></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('hed1', 'hid1')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('hed1')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Heading2s" style="display: none;">
             <div class="q-container">
-                <h5>Headings Question: Exercise2</h5>
+                <h5> Complete the missing word for this heading.</h5>  
             </div>
             <div class="code-container">
-                <h5>Headings Code: Exercise2</h5> 
+                <h5 id="hed2" ansValue="Subheading">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;title&gt;Simple Heading Example &lt;/title&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;h1&gt;Mainheading &lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;h2&gt;<input id = "hid2" style="width:100px;" name="attribute_info"> &lt;/h2&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Headings Output: Exercise2</h5>
+                <h5>Output:
+                    <br>
+                <h1>Mainheading</h1>
+                <h2>Subheading</h2>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('hed2', 'hid2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('hed2')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Heading3s" style="display: none;">
             <div class="q-container">
-                <h5>Headings Question: Exercise3</h5>
+                <h5> Complete the missing part.</h5>  
             </div>
             <div class="code-container">
-                <h5>Headings Code: Exercise3</h5> 
+                <h5 id="hed3" ansValue="Heading">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;title&gt;Exercise3 &lt;/title&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;h1&gt;<input id = "hid3" style="width:100px;" name="attribute_info"> &lt;/h1&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Headings Output: Exercise3</h5>
+                <h5>Output:
+                    <br>
+                <h1>Heading</h1>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('hed3', 'hid3')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('hed3')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Heading4s" style="display: none;">
             <div class="q-container">
-                <h5>Headings Question: Exercise4</h5>
+                <h5> Use the appropriate HTML tags to create a heading structure for a webpage with the following paragraph: "ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College."</h5>  
             </div>
             <div class="code-container">
-                <h5>Headings Code: Exercise4</h5> 
+                <h5 id="hed4" ansValue="&lt;p&gt;">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&lt;h1&gt;ICS&lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;<input id = "hid4" style="width:100px;" name="attribute_info">ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Headings Output: Exercise4</h5>
+                <h5>Output:
+                    <br>
+                <h1>ICS</h1>
+                <p>ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.</p>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('hed4', 'hid4')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('hed4')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Heading5s" style="display: none;">
             <div class="q-container">
-                <h5>Headings Question: Exercise5</h5>
+                <h5> Use the appropriate HTML tags to create a heading structure for a webpage with the following content: "CNSC"</h5>  
             </div>
             <div class="code-container">
-                <h5>Headings Code: Exercise5</h5> 
+                <h5 id="hed5" ansValue="&lt;h1&gt;">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;head&gt;
+                    <br>
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                    <br>
+                    &lt;/head&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;<input id = "hid5" style= "color: blue " width: 100px name="attribute_info">"CNSC" &lt;/h1&gt;
+                    <br>
+                    &lt;p&gt;Camarines Norte State College&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Headings Output: Exercise5</h5>
+                <h5>Output:
+                    <br>
+                <h1>CNSC</h1>
+                <h5><p> Camarines Norte State College</p></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('hed5', 'hid5')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('hed5')">Show Ans</a>
         </div>
+
         <!-- Paragraph Part -->
         <div class="outer-container" id="Paragraph1s" style="display: none;">
             <div class="q-container">
-                <h5>Paragraphs Question: Exercise1</h5>
+                <h5> Use the appropriate HTML tags to create a heading structure for a webpage with the following content: "Welcome to ICS"</h5>  
             </div>
             <div class="code-container">
-                <h5>Paragraphs Code: Exercise1</h5> 
+                <h5 id="para1" ansValue="&lt;p&gt;">Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;<input id = "pars1" style="width:100px;" name="attribute_info">ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.&lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
             </div>
             <div class="op-container">
-                <h5>Paragraphs Output: Exercise1</h5>
+                <h5>Output:
+                    <br>
+                <p>ICS or Institute of Computer Sciences is one of the departments here at Camarines Norte State College.</p>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('para1', 'pars1')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('para1')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Paragraph2s" style="display: none;">
             <div class="q-container">
-                <h5>Paragraphs Question: Exercise2</h5>
+                <h5> Use CSS to set the background-color of the paragraph to gray.</h5>
             </div>
             <div class="code-container">
-                <h5>Paragraphs Code: Exercise2</h5> 
+                <h5 id="para2" ansValue=background-color>Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1  background-color="<input id =  "pars2" style="width: 100px;" name="attribute_info">: smokewhite;">The Story of the Aged Mother &lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="font-style: italic;">This Japanese folktale tells the story of an unkind ruler who issues cruel orders, including one demand that all old folks are to be abandoned and left to die. Basho tells a poignant story about a mother and her son and their love for one another. &lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Paragraphs Output: Exercise2</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="background-color: whitesmoke;">The Story of the Aged Mother</h5>
+                <h5 style="font-style: italic;">This Japanese folktale tells the story of an unkind ruler who issues cruel orders, including one demand that all old folks are to be abandoned and left to die. Basho tells a poignant story about a mother and her son and their love for one another.</h5>
+
             </div>
+            <a class="submit-btn" onclick="checkAnswer('para2', 'pars2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('para2')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Paragraph3s" style="display: none;">
             <div class="q-container">
-                <h5>Paragraphs Question: Exercise3</h5>
+                <h5> Add the correct text align of the paragraph below..</h5>
             </div>
             <div class="code-container">
-                <h5>Paragraphs Code: Exercise3</h5> 
+                <h5 id="para3" ansValue=center>Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1>  style="text-align: <input id =  "pars3" style="width: 100px;" name="attribute_info">;">Pretty Girl &lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p>  style="font-style: italic;">Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface. &lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Paragraphs Output: Exercise3</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="text-align: center;">Pretty Girl</h5>
+                <h5 style="font-style: italic;">Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface.</h5>
+
             </div>
+            <a class="submit-btn" onclick="checkAnswer('para3', 'pars3')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('para3')">Show Ans</a>
         </div>
+
 
         <div class="outer-container" id="Paragraph4s" style="display: none;">
             <div class="q-container">
-                <h5>Paragraphs Question: Exercise4</h5>
+                <h5> Use CSS to set text align of the paragraph.</h5>
             </div>
             <div class="code-container">
-                <h5>Paragraphs Code: Exercise4</h5> 
+                <h5 id="para4" ansValue=text-align>Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1>  style="text-align: center;"Pretty Girl &lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p>  style="<input id =  "pars4" style="width: 100px;" name="attribute_info">: justify;">Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface. &lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Paragraphs Output: Exercise4</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="text-align: center;">Pretty Girl</h5>
+                <h5 style="text-align: justify;">Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface.</h5>
+
             </div>
+            <a class="submit-btn" onclick="checkAnswer('para4', 'pars4')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('para4')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Paragraph5s" style="display: none;">
             <div class="q-container">
-                <h5>Paragraphs Question: Exercise5</h5>
+                <h5> Use CSS to set the text color of the paragraph.</h5>
             </div>
             <div class="code-container">
-                <h5>Paragraphs Code: Exercise5</h5> 
+                <h5 id="para5" ansValue=color>Code:
+                    <br>
+                    &lt;html&gt;
+                    <br>
+                    &lt;body&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1  style="text-align: center;"Pretty Girl &lt;/h1&gt;
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="<input id =  "pars5" style="width: 100px;" name="attribute_info">: darkorchid;"Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface. &lt;/p&gt;
+                    <br>
+                    &lt;/body&gt;
+                    <br>
+                    &lt;/html&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Paragraphs Output: Exercise5</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="text-align: center;">Pretty Girl</h5>
+                <h5 style="color:darkorchid;">Once upon a time, in a picturesque village nestled among rolling hills, there lived a pretty girl with eyes like sapphires and a heart as pure as the clearest stream. Her radiant smile brought joy to everyone she met, and her kindness knew no bounds. Her story was a tale of beauty that flowed from within, a testament to the power of a warm heart in a world that often failed to see past the surface.</h5>
+
             </div>
+            <a class="submit-btn" onclick="checkAnswer('para5', 'pars5')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('para5')">Show Ans</a>
         </div>
+
         <!-- Style Part -->
         <div class="outer-container" id="Style1s" style="display: none;">
             <div class="q-container">
-                <h5>Styles Question: Exercise1</h5>
+                <h5> Set the text color of a paragraph to light gray using the HTML attribute</h5>
             </div>
             <div class="code-container">
-                <h5>Styles Code: Exercise1</h5> 
+                <h5 id="st1" ansValue=color>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="<input id =  "sty1" style="width: 100px;" name="attribute_info">: darksblue;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land. &lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Styles Output: Exercise1</h5>
+                <h5>Output:
+                    <br>
+                <h5><p style="color:darkblue">Once upon a time in a picturesque town, there lived a remarkably handsome man whose striking features and captivating smile could brighten the gloomiest of days. His presence had an enchanting allure, drawing people near, but it was his kindness and generosity that truly set him apart, leaving an indelible mark on the hearts of everyone he encountered. With a heart as beautiful as his exterior, he became a beacon of hope and inspiration in a world yearning for both inner and outer beauty.</p></h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('st1', 'sty1')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('at1')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Style2s" style="display: none;">
             <div class="q-container">
-                <h5>Styles Question: Exercise2</h5>
+                <h5> Use CSS to set the font of the paragraph to "Verdana".</h5>
             </div>
             <div class="code-container">
-                <h5>Styles Code: Exercise2</h5> 
+                <h5 id="st2" ansValue=Verdana>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="font-family: <input id =  "sty2" style="width: 100px;" name="attribute_info">;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land. &lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Styles Output: Exercise2</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="font-family: Verdana;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land.</h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('st2', 'sty2')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('at2')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Style3s" style="display: none;">
             <div class="q-container">
-                <h5>Styles Question: Exercise3</h5>
+                <h5> Use CSS to set the font of the paragraph to "30px".</h5>
             </div>
             <div class="code-container">
-                <h5>Styles Code: Exercise3</h5> 
+                <h5 id="st3" ansValue=font-size>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="<input id =  "sty3" style="width: 100px;" name="attribute_info">: 30px;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land.&lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Styles Output: Exercise3</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="font-size: 30px;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land.</h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('st3', 'sty3')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('at3')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Style4s" style="display: none;">
             <div class="q-container">
-                <h5>Styles Question: Exercise4</h5>
+                <h5> Use CSS to set the background-color of the paragraph to gray.</h5>
             </div>
             <div class="code-container">
-                <h5>Styles Code: Exercise4</h5> 
+                <h5 id="st4" ansValue=background-color>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="<input id =  "sty4" style="width: 100px;" name="attribute_info">: gray;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land. &lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Styles Output: Exercise4</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="background-color: gray;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land.</h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('st4', 'sty4')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('at4')">Show Ans</a>
         </div>
 
         <div class="outer-container" id="Style5s" style="display: none;">
             <div class="q-container">
-                <h5>Styles Question: Exercise5</h5>
+                <h5> Use CSS to justify paragraph.</h5>
             </div>
             <div class="code-container">
-                <h5>Styles Code: Exercise5</h5> 
+                <h5 id="st5" ansValue=justify>Code:
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p  style="text-align: <input id =  "sty5" style="width: 100px;" name="attribute_info">;"The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land. &lt;/p&gt;
+                </h5> 
             </div>
             <div class="op-container">
-                <h5>Styles Output: Exercise5</h5>
+                <h5>Output:
+                    <br>
+                <h5 style="text-align:justify;">The story is about the son and his mother going through the trials given by a cruel ruler who has a hard spot on the elderly people of his land.</h5>
             </div>
+            <a class="submit-btn" onclick="checkAnswer('st5', 'sty5')">Submit</a>
+            <a class="show-btn" onclick="showAnswer('at5')">Show Ans</a>
         </div>
+
         <!-- Formatting Part -->
         <div class="outer-container" id="Formatting1s" style="display: none;">
             <div class="q-container">
