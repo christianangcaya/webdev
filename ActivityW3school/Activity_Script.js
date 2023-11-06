@@ -175,6 +175,12 @@ function checkAnswer(questionId, inputId){
         if (!(exercisesId_array.includes(questionId))){
           progress(questionId);
         }
+        if (exercisesId_array.includes("q1")){
+          document.getElementById("Attribute1").style.backgroundColor="green";
+        }
+        if (exercisesId_array.includes("q2")){
+          document.getElementById("Attribute2").style.backgroundColor="green";
+        }
     } else {
         alert( userAsnwer + " is wrong!");
     }
