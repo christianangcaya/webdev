@@ -64,7 +64,9 @@ h4{
   background-color: #111; /*color ng container ng mge exercises*/
   width: 170px;
   padding-left: 20px;
-
+}
+.dropdown-items{
+  margin-top: 5px;
 }
 
 /* Optional: Style the caret down icon */
