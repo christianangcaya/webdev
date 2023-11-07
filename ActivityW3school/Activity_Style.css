@@ -51,6 +51,8 @@ h4{
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 10px;
   transition: margin-left.5s;
+
+
 }
 
 /* Add an active class to the active dropdown button */
@@ -82,6 +84,7 @@ h4{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
 .h-nav{
   display: flex;
   align-items: center;
@@ -99,13 +102,13 @@ h4{
   border-radius: 24px; 
   background-color: #7DA0CA;/*color nung outer continer*/
   height: 600px;
-  width: 1200px;
+  width: 1100px;
   padding: 10px 10px 10px 10px;
   margin-bottom: 20px;
 }
 .q-container{ 
   border-radius: 10px;
-  background-color: #C1E8FF;/*color nung question container yung may laman question*/
+  background-color: #a7dcfb;/*color nung question container yung may laman question*/
   width: 95%;
   height: 50px;
   margin: auto;
@@ -144,7 +147,7 @@ h4{
   background-color: #06234b;
   color: #f1f1f1;
   cursor: pointer;
-  margin-left: 530px;
+  margin-left: 480px;
 
 }
 
@@ -159,4 +162,24 @@ h4{
   color: #f1f1f1;
   cursor: pointer;
 }
-
+.cw-container{
+  border-radius: 24px; 
+  background-color: #7DA0CA;/*color nung outer continer*/
+  height: 600px;
+  width: 1100px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  font-size: 100px;
+  text-align: center;
+}
+.tn-btn{/*wag pansinin sa show answer toh*/
+  text-align: center;
+  width: 10%;
+  border-radius: 15px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-weight: 100;
+  background-color: #021024;
+  color: #f1f1f1;
+  cursor: pointer;
+}

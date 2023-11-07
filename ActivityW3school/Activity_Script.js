@@ -156,11 +156,76 @@ function remove(){
     document.getElementById("InputAttri4s").style.display = "none";
     document.getElementById("InputAttri5s").style.display = "none";
 }
-
+const previousArray = ["Attribute1s"];
 function reply_click(clicked_id){
     remove();
     document.getElementById(clicked_id+"s").style.display = "block";
+    previousArray.splice(0,1 ,clicked_id+"s" );
 }
+
+function onclickna(){
+    if (exercisesId_array.includes("q1")){
+      remove();
+      document.getElementById("input1").value = "";
+      document.getElementById("Attribute2s").style.display = "block";
+      previousArray.splice(0,1 ,"Attribute2s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("q2")){
+      remove();
+      document.getElementById("input2").value = "";
+      document.getElementById("Attribute3s").style.display = "block";
+      previousArray.splice(0,1 ,"Attribute3s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ver")){
+      remove();
+      document.getElementById("lev").value = "";
+      document.getElementById("Attribute4s").style.display = "block";
+      previousArray.splice(0,1 ,"Attribute4s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ver1")){
+      remove();
+      document.getElementById("lev1").value = "";
+      document.getElementById("Attribute5s").style.display = "block";
+      previousArray.splice(0,1 ,"Attribute5s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ver2")){
+      remove();
+      document.getElementById("lev2").value = "";
+      document.getElementById("Heading1s").style.display = "block";
+      previousArray.splice(0,1 ,"Heading1s");
+      document.getElementById("correct").style.display = "none";
+    }
+}
+
+function onclicknawrong(){
+    remove();
+    document.getElementById("Wrong").style.display = "none";
+    if (previousArray.includes("Attribute1s")){
+      document.getElementById("input1").value = "";
+      document.getElementById(previousArray[0]).style.display = "block";
+    }
+    if (previousArray.includes("Attribute2s")){
+      document.getElementById("input2").value = "";
+      document.getElementById(previousArray[0]).style.display = "block";
+    }
+    if (previousArray.includes("Attribute3s")){
+      document.getElementById("lev").value = "";
+      document.getElementById(previousArray[0]).style.display = "block";
+    }
+    if (previousArray.includes("Attribute4s")){
+      document.getElementById("lev1").value = "";
+      document.getElementById(previousArray[0]).style.display = "block";
+    }
+    if (previousArray.includes("Attribute5s")){
+      document.getElementById("lev2").value = "";
+      document.getElementById(previousArray[0]).style.display = "block";
+    }
+}
+
 const exercisesId_array = [];
 function checkAnswer(questionId, inputId){
     // Get specific question by ID
@@ -171,13 +236,19 @@ function checkAnswer(questionId, inputId){
     var userAsnwer = document.getElementById(inputId).value;
     // Checks if user input is same with set correct answer
     if (ans === userAsnwer){
-        alert( userAsnwer + " is correct!");
+        remove();
+        document.getElementById("correct").style.display = "block";
+        //alert( userAsnwer + " is correct!");
+        // dagdag container for
         if (!(exercisesId_array.includes(questionId))){
           progress(questionId);
         }
         //Attributes
         if (exercisesId_array.includes("q1")){
           document.getElementById("Attribute1").style.backgroundColor="#7DA0CA";
+          //document.getElementById("input1").value = "";
+          //remove();
+          //document.getElementById("Attribute2s").style.display = "block";
         }
         if (exercisesId_array.includes("q2")){
           document.getElementById("Attribute2").style.backgroundColor="#7DA0CA";
@@ -528,7 +599,9 @@ function checkAnswer(questionId, inputId){
           document.getElementById("InputAttri5").style.backgroundColor="#7DA0CA";
         }
     } else {
-        alert( userAsnwer + " is wrong!");
+      remove();
+        //alert( userAsnwer + " is wrong!");
+        document.getElementById("Wrong").style.display = "block";
     }
 }
 var isHidden = true;
@@ -556,6 +629,7 @@ function showAnswer(questionId) {
    // Disable the input to prevent further editing
    inputElement.removeAttribute('disabled');
    isHidden = true;
+
    }
    
  }
@@ -563,7 +637,7 @@ function showAnswer(questionId) {
 function progress(exercisesId){
   progressBar = document.getElementById("progressId");
   done_exercises++;
-  progressBar.textContent = "Completed " + done_exercises.toString() + "of 110 Exercises:";
+  progressBar.textContent = "Completed " + done_exercises.toString() + " of 110 Exercises:";
   exercisesId_array.push(exercisesId);
 }
 

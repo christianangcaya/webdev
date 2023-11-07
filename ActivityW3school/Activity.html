@@ -23,6 +23,7 @@
             <a href="#Attribute3s" onclick="reply_click(this.id)" id="Attribute3" class="dropdown-items">Exercise 3</a>
             <a href="#Attribute4s" onclick="reply_click(this.id)" id="Attribute4" class="dropdown-items">Exercise 4</a>
             <a href="#Attribute5s" onclick="reply_click(this.id)" id="Attribute5" class="dropdown-items">Exercise 5</a>
+            <a href="#AttributeTutors" onclick="reply_click(this.id)" id="AttributeTutor">Tutorial INI</a>
         </div>
         <button class="dropdown-btn">HTML Headings
             <i class="fa fa-caret-down"></i>
@@ -3818,6 +3819,20 @@
                 </h5>
             </div>
             <a class="submit-btn" onclick="checkAnswer('IAq5','IAIq5')">Submit</a>
+        </div>
+
+        <div class="cw-container" id="correct" style="display: none;">
+            <h5>
+                Correct!!
+            </h5>
+            <button class="tn-btn" onclick="onclickna()">next</button>
+        </div>
+        
+        <div class="cw-container" id="Wrong" style="display: none;">
+            <h5>
+                Wrong!!
+            </h5>
+            <button class="tn-btn" onclick="onclicknawrong(this.id)">Try again</button>
         </div>
         <!--<a class="submit-btn">Submit</a>-->
     </div>
