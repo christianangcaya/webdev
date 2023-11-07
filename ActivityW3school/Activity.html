@@ -13,227 +13,249 @@
             <a href="#"><i class="ri-delete-bin-6-line"></i></a>
             <a href="javascript:void(0)"><i class="ri-close-line" style="font-size: 30px;" onclick="closeNav();myFunction();"></i></a>
         </div>
-        <h4 id="progressId">Completed 0 of 110 Exercises:</h4>
+        <h4 class="progress" id="progressId">Completed 0 of 110 Exercises:</h4>
         <button class="dropdown-btn">HTML Attributes
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Attribute1s" onclick="reply_click(this.id)" id="Attribute1" class="dropdown-items">Exercise 1</a>
-            <a href="#Attribute2s" onclick="reply_click(this.id)" id="Attribute2" class="dropdown-items">Exercise 2</a>
-            <a href="#Attribute3s" onclick="reply_click(this.id)" id="Attribute3" class="dropdown-items">Exercise 3</a>
-            <a href="#Attribute4s" onclick="reply_click(this.id)" id="Attribute4" class="dropdown-items">Exercise 4</a>
-            <a href="#Attribute5s" onclick="reply_click(this.id)" id="Attribute5" class="dropdown-items">Exercise 5</a>
-            <a href="#AttributeTutors" onclick="reply_click(this.id)" id="AttributeTutor" style="font-size: small;">HTML Attributes Lesson</a>
+            <a href="#Attribute1s" onclick="reply_click(this.id); changetoexercises()" id="Attribute1" class="dropdown-items">Exercise 1</a>
+            <a href="#Attribute2s" onclick="reply_click(this.id); changetoexercises()" id="Attribute2" class="dropdown-items">Exercise 2</a>
+            <a href="#Attribute3s" onclick="reply_click(this.id); changetoexercises()" id="Attribute3" class="dropdown-items">Exercise 3</a>
+            <a href="#Attribute4s" onclick="reply_click(this.id); changetoexercises()" id="Attribute4" class="dropdown-items">Exercise 4</a>
+            <a href="#Attribute5s" onclick="reply_click(this.id); changetoexercises()" id="Attribute5" class="dropdown-items">Exercise 5</a>
+            <a href="#AttributeTutors" onclick="reply_click(this.id); changetolessons()" id="AttributeTutor" style="font-size: small;">HTML Attributes Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Headings
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Heading1s" onclick="reply_click(this.id)" id="Heading1" class="dropdown-items">Exercise 1</a>
-            <a href="#Heading2s" onclick="reply_click(this.id)" id="Heading2" class="dropdown-items">Exercise 2</a>
-            <a href="#Heading3s" onclick="reply_click(this.id)" id="Heading3" class="dropdown-items">Exercise 3</a>
-            <a href="#Heading4s" onclick="reply_click(this.id)" id="Heading4" class="dropdown-items">Exercise 4</a>
-            <a href="#Heading5s" onclick="reply_click(this.id)" id="Heading5" class="dropdown-items">Exercise 5</a>
+            <a href="#Heading1s" onclick="reply_click(this.id); changetoexercises()" id="Heading1" class="dropdown-items">Exercise 1</a>
+            <a href="#Heading2s" onclick="reply_click(this.id); changetoexercises()" id="Heading2" class="dropdown-items">Exercise 2</a>
+            <a href="#Heading3s" onclick="reply_click(this.id); changetoexercises()" id="Heading3" class="dropdown-items">Exercise 3</a>
+            <a href="#Heading4s" onclick="reply_click(this.id); changetoexercises()" id="Heading4" class="dropdown-items">Exercise 4</a>
+            <a href="#Heading5s" onclick="reply_click(this.id); changetoexercises()" id="Heading5" class="dropdown-items">Exercise 5</a>
+            <a href="#HeadingTutors" onclick="reply_click(this.id); changetolessons()" id="HeadingTutor" style="font-size: small;">HTML Headings Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Paragraphs
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Paragraph1s" onclick="reply_click(this.id)" id="Paragraph1" class="dropdown-items">Exercise 1</a>
-            <a href="#Paragraph2s" onclick="reply_click(this.id)" id="Paragraph2" class="dropdown-items">Exercise 2</a>
-            <a href="#Paragraph3s" onclick="reply_click(this.id)" id="Paragraph3" class="dropdown-items">Exercise 3</a>
-            <a href="#Paragraph4s" onclick="reply_click(this.id)" id="Paragraph4" class="dropdown-items">Exercise 4</a>
-            <a href="#Paragraph5s" onclick="reply_click(this.id)" id="Paragraph5" class="dropdown-items">Exercise 5</a>
+            <a href="#Paragraph1s" onclick="reply_click(this.id); changetoexercises()" id="Paragraph1" class="dropdown-items">Exercise 1</a>
+            <a href="#Paragraph2s" onclick="reply_click(this.id); changetoexercises()" id="Paragraph2" class="dropdown-items">Exercise 2</a>
+            <a href="#Paragraph3s" onclick="reply_click(this.id); changetoexercises()" id="Paragraph3" class="dropdown-items">Exercise 3</a>
+            <a href="#Paragraph4s" onclick="reply_click(this.id); changetoexercises()" id="Paragraph4" class="dropdown-items">Exercise 4</a>
+            <a href="#Paragraph5s" onclick="reply_click(this.id); changetoexercises()" id="Paragraph5" class="dropdown-items">Exercise 5</a>
+            <a href="#ParagraphTutors" onclick="reply_click(this.id); changetolessons()" id="ParagraphTutor" style="font-size: small;">HTML Paragraphs Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Styles
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Style1s" onclick="reply_click(this.id)" id="Style1" class="dropdown-items">Exercise 1</a>
-            <a href="#Style2s" onclick="reply_click(this.id)" id="Style2" class="dropdown-items">Exercise 2</a>
-            <a href="#Style3s" onclick="reply_click(this.id)" id="Style3" class="dropdown-items">Exercise 3</a>
-            <a href="#Style4s" onclick="reply_click(this.id)" id="Style4" class="dropdown-items">Exercise 4</a>
-            <a href="#Style5s" onclick="reply_click(this.id)" id="Style5" class="dropdown-items">Exercise 5</a>
+            <a href="#Style1s" onclick="reply_click(this.id); changetoexercises()" id="Style1" class="dropdown-items">Exercise 1</a>
+            <a href="#Style2s" onclick="reply_click(this.id); changetoexercises()" id="Style2" class="dropdown-items">Exercise 2</a>
+            <a href="#Style3s" onclick="reply_click(this.id); changetoexercises()" id="Style3" class="dropdown-items">Exercise 3</a>
+            <a href="#Style4s" onclick="reply_click(this.id); changetoexercises()" id="Style4" class="dropdown-items">Exercise 4</a>
+            <a href="#Style5s" onclick="reply_click(this.id); changetoexercises()" id="Style5" class="dropdown-items">Exercise 5</a>
+            <a href="#StyleTutors" onclick="reply_click(this.id); changetolessons()" id="StyleTutor" style="font-size: small;">HTML Styles Lesson</a>
+            
         </div>
         <button class="dropdown-btn">HTML Formating
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Formatting1s" onclick="reply_click(this.id)" id="Formatting1" class="dropdown-items">Exercise 1</a>
-            <a href="#Formatting2s" onclick="reply_click(this.id)" id="Formatting2" class="dropdown-items">Exercise 2</a>
-            <a href="#Formatting3s" onclick="reply_click(this.id)" id="Formatting3" class="dropdown-items">Exercise 3</a>
-            <a href="#Formatting4s" onclick="reply_click(this.id)" id="Formatting4" class="dropdown-items">Exercise 4</a>
-            <a href="#Formatting5s" onclick="reply_click(this.id)" id="Formatting5" class="dropdown-items">Exercise 5</a>
+            <a href="#Formatting1s" onclick="reply_click(this.id); changetoexercises()" id="Formatting1" class="dropdown-items">Exercise 1</a>
+            <a href="#Formatting2s" onclick="reply_click(this.id); changetoexercises()" id="Formatting2" class="dropdown-items">Exercise 2</a>
+            <a href="#Formatting3s" onclick="reply_click(this.id); changetoexercises()" id="Formatting3" class="dropdown-items">Exercise 3</a>
+            <a href="#Formatting4s" onclick="reply_click(this.id); changetoexercises()" id="Formatting4" class="dropdown-items">Exercise 4</a>
+            <a href="#Formatting5s" onclick="reply_click(this.id); changetoexercises()" id="Formatting5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormattingTutors" onclick="reply_click(this.id); changetolessons()" id="FormattingTutor" style="font-size: small;">HTML Formatting Lesson</a>
         </div>
-        <button class="dropdown-btn">HTML Qoutations
+        <button class="dropdown-btn">HTML Quotations
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Quotation1s" onclick="reply_click(this.id)" id="Quotation1" class="dropdown-items">Exercise 1</a>
-            <a href="#Quotation2s" onclick="reply_click(this.id)" id="Quotation2" class="dropdown-items">Exercise 2</a>
-            <a href="#Quotation3s" onclick="reply_click(this.id)" id="Quotation3" class="dropdown-items">Exercise 3</a>
-            <a href="#Quotation4s" onclick="reply_click(this.id)" id="Quotation4" class="dropdown-items">Exercise 4</a>
-            <a href="#Quotation5s" onclick="reply_click(this.id)" id="Quotation5" class="dropdown-items">Exercise 5</a>
+            <a href="#Quotation1s" onclick="reply_click(this.id); changetoexercises()" id="Quotation1" class="dropdown-items">Exercise 1</a>
+            <a href="#Quotation2s" onclick="reply_click(this.id); changetoexercises()" id="Quotation2" class="dropdown-items">Exercise 2</a>
+            <a href="#Quotation3s" onclick="reply_click(this.id); changetoexercises()" id="Quotation3" class="dropdown-items">Exercise 3</a>
+            <a href="#Quotation4s" onclick="reply_click(this.id); changetoexercises()" id="Quotation4" class="dropdown-items">Exercise 4</a>
+            <a href="#Quotation5s" onclick="reply_click(this.id); changetoexercises()" id="Quotation5" class="dropdown-items">Exercise 5</a>
+            <a href="#QuotationTutors" onclick="reply_click(this.id); changetolessons()" id="QuotationTutor" style="font-size: small;">HTML Quotations Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Comments 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Comment1s" onclick="reply_click(this.id)" id="Comment1" class="dropdown-items">Exercise 1</a>
-            <a href="#Comment2s" onclick="reply_click(this.id)" id="Comment2" class="dropdown-items">Exercise 2</a>
-            <a href="#Comment3s" onclick="reply_click(this.id)" id="Comment3" class="dropdown-items">Exercise 3</a>
-            <a href="#Comment4s" onclick="reply_click(this.id)" id="Comment4" class="dropdown-items">Exercise 4</a>
-            <a href="#Comment5s" onclick="reply_click(this.id)" id="Comment5" class="dropdown-items">Exercise 5</a>
+            <a href="#Comment1s" onclick="reply_click(this.id); changetoexercises()" id="Comment1" class="dropdown-items">Exercise 1</a>
+            <a href="#Comment2s" onclick="reply_click(this.id); changetoexercises()" id="Comment2" class="dropdown-items">Exercise 2</a>
+            <a href="#Comment3s" onclick="reply_click(this.id); changetoexercises()" id="Comment3" class="dropdown-items">Exercise 3</a>
+            <a href="#Comment4s" onclick="reply_click(this.id); changetoexercises()" id="Comment4" class="dropdown-items">Exercise 4</a>
+            <a href="#Comment5s" onclick="reply_click(this.id); changetoexercises()" id="Comment5" class="dropdown-items">Exercise 5</a>
+            <a href="#CommentTutors" onclick="reply_click(this.id); changetolessons()" id="CommentTutor" style="font-size: small;">HTML Comments Lesson</a>
         </div>
         <button class="dropdown-btn">HTML CSS 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#CSS1s" onclick="reply_click(this.id)" id="CSS1" class="dropdown-items">Exercise 1</a>
-            <a href="#CSS2s" onclick="reply_click(this.id)" id="CSS2" class="dropdown-items">Exercise 2</a>
-            <a href="#CSS3s" onclick="reply_click(this.id)" id="CSS3" class="dropdown-items">Exercise 3</a>
-            <a href="#CSS4s" onclick="reply_click(this.id)" id="CSS4" class="dropdown-items">Exercise 4</a>
-            <a href="#CSS5s" onclick="reply_click(this.id)" id="CSS5" class="dropdown-items">Exercise 5</a>
+            <a href="#CSS1s" onclick="reply_click(this.id); changetoexercises()" id="CSS1" class="dropdown-items">Exercise 1</a>
+            <a href="#CSS2s" onclick="reply_click(this.id); changetoexercises()" id="CSS2" class="dropdown-items">Exercise 2</a>
+            <a href="#CSS3s" onclick="reply_click(this.id); changetoexercises()" id="CSS3" class="dropdown-items">Exercise 3</a>
+            <a href="#CSS4s" onclick="reply_click(this.id); changetoexercises()" id="CSS4" class="dropdown-items">Exercise 4</a>
+            <a href="#CSS5s" onclick="reply_click(this.id); changetoexercises()" id="CSS5" class="dropdown-items">Exercise 5</a>
+            <a href="#CSSTutors" onclick="reply_click(this.id); changetolessons()" id="CSSTutor" style="font-size: small;">HTML CSS Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Links 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Link1s" onclick="reply_click(this.id)" id="Link1" class="dropdown-items">Exercise 1</a>
-            <a href="#Link2s" onclick="reply_click(this.id)" id="Link2" class="dropdown-items">Exercise 2</a>
-            <a href="#Link3s" onclick="reply_click(this.id)" id="Link3" class="dropdown-items">Exercise 3</a>
-            <a href="#Link4s" onclick="reply_click(this.id)" id="Link4" class="dropdown-items">Exercise 4</a>
-            <a href="#Link5s" onclick="reply_click(this.id)" id="Link5" class="dropdown-items">Exercise 5</a>
+            <a href="#Link1s" onclick="reply_click(this.id); changetoexercises()" id="Link1" class="dropdown-items">Exercise 1</a>
+            <a href="#Link2s" onclick="reply_click(this.id); changetoexercises()" id="Link2" class="dropdown-items">Exercise 2</a>
+            <a href="#Link3s" onclick="reply_click(this.id); changetoexercises()" id="Link3" class="dropdown-items">Exercise 3</a>
+            <a href="#Link4s" onclick="reply_click(this.id); changetoexercises()" id="Link4" class="dropdown-items">Exercise 4</a>
+            <a href="#Link5s" onclick="reply_click(this.id); changetoexercises()" id="Link5" class="dropdown-items">Exercise 5</a>
+            <a href="#LinkTutors" onclick="reply_click(this.id); changetolessons()" id="LinkTutor" style="font-size: small;">HTML Links Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Images 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Image1s" onclick="reply_click(this.id)" id="Image1" class="dropdown-items">Exercise 1</a>
-            <a href="#Image2s" onclick="reply_click(this.id)" id="Image2" class="dropdown-items">Exercise 2</a>
-            <a href="#Image3s" onclick="reply_click(this.id)" id="Image3" class="dropdown-items">Exercise 3</a>
-            <a href="#Image4s" onclick="reply_click(this.id)" id="Image4" class="dropdown-items">Exercise 4</a>
-            <a href="#Image5s" onclick="reply_click(this.id)" id="Image5" class="dropdown-items">Exercise 5</a>
+            <a href="#Image1s" onclick="reply_click(this.id); changetoexercises()" id="Image1" class="dropdown-items">Exercise 1</a>
+            <a href="#Image2s" onclick="reply_click(this.id); changetoexercises()" id="Image2" class="dropdown-items">Exercise 2</a>
+            <a href="#Image3s" onclick="reply_click(this.id); changetoexercises()" id="Image3" class="dropdown-items">Exercise 3</a>
+            <a href="#Image4s" onclick="reply_click(this.id); changetoexercises()" id="Image4" class="dropdown-items">Exercise 4</a>
+            <a href="#Image5s" onclick="reply_click(this.id); changetoexercises()" id="Image5" class="dropdown-items">Exercise 5</a>
+            <a href="#ImagesTutors" onclick="reply_click(this.id); changetolessons()" id="ImagesTutor" style="font-size: small;">HTML Images Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Tables 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Table1s" onclick="reply_click(this.id)" id="Table1" class="dropdown-items">Exercise 1</a>
-            <a href="#Table2s" onclick="reply_click(this.id)" id="Table2" class="dropdown-items">Exercise 2</a>
-            <a href="#Table3s" onclick="reply_click(this.id)" id="Table3" class="dropdown-items">Exercise 3</a>
-            <a href="#Table4s" onclick="reply_click(this.id)" id="Table4" class="dropdown-items">Exercise 4</a>
-            <a href="#Table5s" onclick="reply_click(this.id)" id="Table5" class="dropdown-items">Exercise 5</a>
+            <a href="#Table1s" onclick="reply_click(this.id); changetoexercises()" id="Table1" class="dropdown-items">Exercise 1</a>
+            <a href="#Table2s" onclick="reply_click(this.id); changetoexercises()" id="Table2" class="dropdown-items">Exercise 2</a>
+            <a href="#Table3s" onclick="reply_click(this.id); changetoexercises()" id="Table3" class="dropdown-items">Exercise 3</a>
+            <a href="#Table4s" onclick="reply_click(this.id); changetoexercises()" id="Table4" class="dropdown-items">Exercise 4</a>
+            <a href="#Table5s" onclick="reply_click(this.id); changetoexercises()" id="Table5" class="dropdown-items">Exercise 5</a>
+            <a href="#TableTutors" onclick="reply_click(this.id); changetolessons()" id="TableTutor" style="font-size: small;">HTML Tables Lesson</a>
         </div>
         <button class="dropdown-btn">HTML List 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#List1s" onclick="reply_click(this.id)" id="List1" class="dropdown-items">Exercise 1</a>
-            <a href="#List2s" onclick="reply_click(this.id)" id="List2" class="dropdown-items">Exercise 2</a>
-            <a href="#List3s" onclick="reply_click(this.id)" id="List3" class="dropdown-items">Exercise 3</a>
-            <a href="#List4s" onclick="reply_click(this.id)" id="List4" class="dropdown-items">Exercise 4</a>
-            <a href="#List5s" onclick="reply_click(this.id)" id="List5" class="dropdown-items">Exercise 5</a>
+            <a href="#List1s" onclick="reply_click(this.id); changetoexercises()" id="List1" class="dropdown-items">Exercise 1</a>
+            <a href="#List2s" onclick="reply_click(this.id); changetoexercises()" id="List2" class="dropdown-items">Exercise 2</a>
+            <a href="#List3s" onclick="reply_click(this.id); changetoexercises()" id="List3" class="dropdown-items">Exercise 3</a>
+            <a href="#List4s" onclick="reply_click(this.id); changetoexercises()" id="List4" class="dropdown-items">Exercise 4</a>
+            <a href="#List5s" onclick="reply_click(this.id); changetoexercises()" id="List5" class="dropdown-items">Exercise 5</a>
+            <a href="#ListTutors" onclick="reply_click(this.id); changetolessons()" id="ListTutor" style="font-size: small;">HTML Lists Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Classes 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Classes1s" onclick="reply_click(this.id)" id="Classes1" class="dropdown-items">Exercise 1</a>
-            <a href="#Classes2s" onclick="reply_click(this.id)" id="Classes2" class="dropdown-items">Exercise 2</a>
-            <a href="#Classes3s" onclick="reply_click(this.id)" id="Classes3" class="dropdown-items">Exercise 3</a>
-            <a href="#Classes4s" onclick="reply_click(this.id)" id="Classes4" class="dropdown-items">Exercise 4</a>
-            <a href="#Classes5s" onclick="reply_click(this.id)" id="Classes5" class="dropdown-items">Exercise 5</a>
+            <a href="#Classes1s" onclick="reply_click(this.id); changetoexercises()" id="Classes1" class="dropdown-items">Exercise 1</a>
+            <a href="#Classes2s" onclick="reply_click(this.id); changetoexercises()" id="Classes2" class="dropdown-items">Exercise 2</a>
+            <a href="#Classes3s" onclick="reply_click(this.id); changetoexercises()" id="Classes3" class="dropdown-items">Exercise 3</a>
+            <a href="#Classes4s" onclick="reply_click(this.id); changetoexercises()" id="Classes4" class="dropdown-items">Exercise 4</a>
+            <a href="#Classes5s" onclick="reply_click(this.id); changetoexercises()" id="Classes5" class="dropdown-items">Exercise 5</a>
+            <a href="#ClassesTutors" onclick="reply_click(this.id); changetolessons()" id="ClassesTutor" style="font-size: small;">HTML Classes Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Id 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Id1s" onclick="reply_click(this.id)" id="Id1" class="dropdown-items">Exercise 1</a>
-            <a href="#Id2s" onclick="reply_click(this.id)" id="Id2" class="dropdown-items">Exercise 2</a>
-            <a href="#Id3s" onclick="reply_click(this.id)" id="Id3" class="dropdown-items">Exercise 3</a>
-            <a href="#Id4s" onclick="reply_click(this.id)" id="Id4" class="dropdown-items">Exercise 4</a>
-            <a href="#Id5s" onclick="reply_click(this.id)" id="Id5" class="dropdown-items">Exercise 5</a>
+            <a href="#Id1s" onclick="reply_click(this.id); changetoexercises()" id="Id1" class="dropdown-items">Exercise 1</a>
+            <a href="#Id2s" onclick="reply_click(this.id); changetoexercises()" id="Id2" class="dropdown-items">Exercise 2</a>
+            <a href="#Id3s" onclick="reply_click(this.id); changetoexercises()" id="Id3" class="dropdown-items">Exercise 3</a>
+            <a href="#Id4s" onclick="reply_click(this.id); changetoexercises()" id="Id4" class="dropdown-items">Exercise 4</a>
+            <a href="#Id5s" onclick="reply_click(this.id); changetoexercises()" id="Id5" class="dropdown-items">Exercise 5</a>
+            <a href="#idTutors" onclick="reply_click(this.id); changetolessons()" id="idTutor" style="font-size: small;">HTML id Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Iframes
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Iframe1s" onclick="reply_click(this.id)" id="Iframe1" class="dropdown-items">Exercise 1</a>
-            <a href="#Iframe2s" onclick="reply_click(this.id)" id="Iframe2" class="dropdown-items">Exercise 2</a>
-            <a href="#Iframe3s" onclick="reply_click(this.id)" id="Iframe3" class="dropdown-items">Exercise 3</a>
-            <a href="#Iframe4s" onclick="reply_click(this.id)" id="Iframe4" class="dropdown-items">Exercise 4</a>
-            <a href="#Iframe5s" onclick="reply_click(this.id)" id="Iframe5" class="dropdown-items">Exercise 5</a>
+            <a href="#Iframe1s" onclick="reply_click(this.id); changetoexercises()" id="Iframe1" class="dropdown-items">Exercise 1</a>
+            <a href="#Iframe2s" onclick="reply_click(this.id); changetoexercises()" id="Iframe2" class="dropdown-items">Exercise 2</a>
+            <a href="#Iframe3s" onclick="reply_click(this.id); changetoexercises()" id="Iframe3" class="dropdown-items">Exercise 3</a>
+            <a href="#Iframe4s" onclick="reply_click(this.id); changetoexercises()" id="Iframe4" class="dropdown-items">Exercise 4</a>
+            <a href="#Iframe5s" onclick="reply_click(this.id); changetoexercises()" id="Iframe5" class="dropdown-items">Exercise 5</a>
+            <a href="#IframeTutors" onclick="reply_click(this.id); changetolessons()" id="IframeTutor" style="font-size: small;">HTML Iframes Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Scripts 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Script1s" onclick="reply_click(this.id)" id="Script1" class="dropdown-items">Exercise 1</a>
-            <a href="#Script2s" onclick="reply_click(this.id)" id="Script2" class="dropdown-items">Exercise 2</a>
-            <a href="#Script3s" onclick="reply_click(this.id)" id="Script3" class="dropdown-items">Exercise 3</a>
-            <a href="#Script4s" onclick="reply_click(this.id)" id="Script4" class="dropdown-items">Exercise 4</a>
-            <a href="#Script5s" onclick="reply_click(this.id)" id="Script5" class="dropdown-items">Exercise 5</a>
+            <a href="#Script1s" onclick="reply_click(this.id); changetoexercises()" id="Script1" class="dropdown-items">Exercise 1</a>
+            <a href="#Script2s" onclick="reply_click(this.id); changetoexercises()" id="Script2" class="dropdown-items">Exercise 2</a>
+            <a href="#Script3s" onclick="reply_click(this.id); changetoexercises()" id="Script3" class="dropdown-items">Exercise 3</a>
+            <a href="#Script4s" onclick="reply_click(this.id); changetoexercises()" id="Script4" class="dropdown-items">Exercise 4</a>
+            <a href="#Script5s" onclick="reply_click(this.id); changetoexercises()" id="Script5" class="dropdown-items">Exercise 5</a>
+            <a href="#ScriptTutors" onclick="reply_click(this.id); changetolessons()" id="ScriptTutor" style="font-size: small;">HTML Scripts Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Computercode 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Computercode1s" onclick="reply_click(this.id)" id="Computercode1" class="dropdown-items">Exercise 1</a>
-            <a href="#Computercode2s" onclick="reply_click(this.id)" id="Computercode2" class="dropdown-items">Exercise 2</a>
-            <a href="#Computercode3s" onclick="reply_click(this.id)" id="Computercode3" class="dropdown-items">Exercise 3</a>
-            <a href="#Computercode4s" onclick="reply_click(this.id)" id="Computercode4" class="dropdown-items">Exercise 4</a>
-            <a href="#Computercode5s" onclick="reply_click(this.id)" id="Computercode5" class="dropdown-items">Exercise 5</a>
+            <a href="#Computercode1s" onclick="reply_click(this.id); changetoexercises()" id="Computercode1" class="dropdown-items">Exercise 1</a>
+            <a href="#Computercode2s" onclick="reply_click(this.id); changetoexercises()" id="Computercode2" class="dropdown-items">Exercise 2</a>
+            <a href="#Computercode3s" onclick="reply_click(this.id); changetoexercises()" id="Computercode3" class="dropdown-items">Exercise 3</a>
+            <a href="#Computercode4s" onclick="reply_click(this.id); changetoexercises()" id="Computercode4" class="dropdown-items">Exercise 4</a>
+            <a href="#Computercode5s" onclick="reply_click(this.id); changetoexercises()" id="Computercode5" class="dropdown-items">Exercise 5</a>
+            <a href="#ComputercodeTutors" onclick="reply_click(this.id); changetolessons()" id="ComputercodeTutor" style="font-size: small;">HTML Computercodes Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Forms 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#Form1s" onclick="reply_click(this.id)" id="Form1" class="dropdown-items">Exercise 1</a>
-            <a href="#Form2s" onclick="reply_click(this.id)" id="Form2" class="dropdown-items">Exercise 2</a>
-            <a href="#Form3s" onclick="reply_click(this.id)" id="Form3" class="dropdown-items">Exercise 3</a>
-            <a href="#Form4s" onclick="reply_click(this.id)" id="Form4" class="dropdown-items">Exercise 4</a>
-            <a href="#Form5s" onclick="reply_click(this.id)" id="Form5" class="dropdown-items">Exercise 5</a>
+            <a href="#Form1s" onclick="reply_click(this.id); changetoexercises()" id="Form1" class="dropdown-items">Exercise 1</a>
+            <a href="#Form2s" onclick="reply_click(this.id); changetoexercises()" id="Form2" class="dropdown-items">Exercise 2</a>
+            <a href="#Form3s" onclick="reply_click(this.id); changetoexercises()" id="Form3" class="dropdown-items">Exercise 3</a>
+            <a href="#Form4s" onclick="reply_click(this.id); changetoexercises()" id="Form4" class="dropdown-items">Exercise 4</a>
+            <a href="#Form5s" onclick="reply_click(this.id); changetoexercises()" id="Form5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormTutors" onclick="reply_click(this.id); changetolessons()" id="FormTutor" style="font-size: small;">HTML Forms Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Form Attributes 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#FormAttri1s" onclick="reply_click(this.id)" id="FormAttri1" class="dropdown-items">Exercise 1</a>
-            <a href="#FormAttri2s" onclick="reply_click(this.id)" id="FormAttri2" class="dropdown-items">Exercise 2</a>
-            <a href="#FormAttri3s" onclick="reply_click(this.id)" id="FormAttri3" class="dropdown-items">Exercise 3</a>
-            <a href="#FormAttri4s" onclick="reply_click(this.id)" id="FormAttri4" class="dropdown-items">Exercise 4</a>
-            <a href="#FormAttri5s" onclick="reply_click(this.id)" id="FormAttri5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormAttri1s" onclick="reply_click(this.id); changetoexercises()" id="FormAttri1" class="dropdown-items">Exercise 1</a>
+            <a href="#FormAttri2s" onclick="reply_click(this.id); changetoexercises()" id="FormAttri2" class="dropdown-items">Exercise 2</a>
+            <a href="#FormAttri3s" onclick="reply_click(this.id); changetoexercises()" id="FormAttri3" class="dropdown-items">Exercise 3</a>
+            <a href="#FormAttri4s" onclick="reply_click(this.id); changetoexercises()" id="FormAttri4" class="dropdown-items">Exercise 4</a>
+            <a href="#FormAttri5s" onclick="reply_click(this.id); changetoexercises()" id="FormAttri5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormAttriTutors" onclick="reply_click(this.id); changetolessons()" id="FormAttriTutor" style="font-size: small;">HTML Form Attributes Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Form Elements 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#FormElem1s" onclick="reply_click(this.id)" id="FormElem1" class="dropdown-items">Exercise 1</a>
-            <a href="#FormElem2s" onclick="reply_click(this.id)" id="FormElem2" class="dropdown-items">Exercise 2</a>
-            <a href="#FormElem3s" onclick="reply_click(this.id)" id="FormElem3" class="dropdown-items">Exercise 3</a>
-            <a href="#FormElem4s" onclick="reply_click(this.id)" id="FormElem4" class="dropdown-items">Exercise 4</a>
-            <a href="#FormElem5s" onclick="reply_click(this.id)" id="FormElem5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormElem1s" onclick="reply_click(this.id); changetoexercises()" id="FormElem1" class="dropdown-items">Exercise 1</a>
+            <a href="#FormElem2s" onclick="reply_click(this.id); changetoexercises()" id="FormElem2" class="dropdown-items">Exercise 2</a>
+            <a href="#FormElem3s" onclick="reply_click(this.id); changetoexercises()" id="FormElem3" class="dropdown-items">Exercise 3</a>
+            <a href="#FormElem4s" onclick="reply_click(this.id); changetoexercises()" id="FormElem4" class="dropdown-items">Exercise 4</a>
+            <a href="#FormElem5s" onclick="reply_click(this.id); changetoexercises()" id="FormElem5" class="dropdown-items">Exercise 5</a>
+            <a href="#FormElemTutors" onclick="reply_click(this.id); changetolessons()" id="FormElemTutor" style="font-size: small;">HTML Form Elements Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Input Types 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#InputType1s" onclick="reply_click(this.id)" id="InputType1" class="dropdown-items">Exercise 1</a>
-            <a href="#InputType2s" onclick="reply_click(this.id)" id="InputType2" class="dropdown-items">Exercise 2</a>
-            <a href="#InputType3s" onclick="reply_click(this.id)" id="InputType3" class="dropdown-items">Exercise 3</a>
-            <a href="#InputType4s" onclick="reply_click(this.id)" id="InputType4" class="dropdown-items">Exercise 4</a>
-            <a href="#InputType5s" onclick="reply_click(this.id)" id="InputType5" class="dropdown-items">Exercise 5</a>
+            <a href="#InputType1s" onclick="reply_click(this.id); changetoexercises()" id="InputType1" class="dropdown-items">Exercise 1</a>
+            <a href="#InputType2s" onclick="reply_click(this.id); changetoexercises()" id="InputType2" class="dropdown-items">Exercise 2</a>
+            <a href="#InputType3s" onclick="reply_click(this.id); changetoexercises()" id="InputType3" class="dropdown-items">Exercise 3</a>
+            <a href="#InputType4s" onclick="reply_click(this.id); changetoexercises()" id="InputType4" class="dropdown-items">Exercise 4</a>
+            <a href="#InputType5s" onclick="reply_click(this.id); changetoexercises()" id="InputType5" class="dropdown-items">Exercise 5</a>
+            <a href="#InputTypeTutors" onclick="reply_click(this.id); changetolessons()" id="InputTypeTutor" style="font-size: small;">HTML Input Types Lesson</a>
         </div>
         <button class="dropdown-btn">HTML Input Attributes
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#InputAttri1s" onclick="reply_click(this.id)" id="InputAttri1" class="dropdown-items">Exercise 1</a>
-            <a href="#InputAttri2s" onclick="reply_click(this.id)" id="InputAttri2" class="dropdown-items">Exercise 2</a>
-            <a href="#InputAttri3s" onclick="reply_click(this.id)" id="InputAttri3" class="dropdown-items">Exercise 3</a>
-            <a href="#InputAttri4s" onclick="reply_click(this.id)" id="InputAttri4" class="dropdown-items">Exercise 4</a>
-            <a href="#InputAttri5s" onclick="reply_click(this.id)" id="InputAttri5" class="dropdown-items">Exercise 5</a>
+            <a href="#InputAttri1s" onclick="reply_click(this.id); changetoexercises()" id="InputAttri1" class="dropdown-items">Exercise 1</a>
+            <a href="#InputAttri2s" onclick="reply_click(this.id); changetoexercises()" id="InputAttri2" class="dropdown-items">Exercise 2</a>
+            <a href="#InputAttri3s" onclick="reply_click(this.id); changetoexercises()" id="InputAttri3" class="dropdown-items">Exercise 3</a>
+            <a href="#InputAttri4s" onclick="reply_click(this.id); changetoexercises()" id="InputAttri4" class="dropdown-items">Exercise 4</a>
+            <a href="#InputAttri5s" onclick="reply_click(this.id); changetoexercises()" id="InputAttri5" class="dropdown-items">Exercise 5</a>
+            <a href="#InputAttriTutors" onclick="reply_click(this.id); changetolessons()" id="InputAttriTutor" style="font-size: small;">HTML Input Attributes Lesson</a>
         </div>
     </div>
       
@@ -242,7 +264,6 @@
             <span style="font-size:30px;cursor:pointer" onclick="openNav(); myFunction();">&#9776;</span> 
         </div>
         <h2 id="exerciseLabel">Exercise:</h2>
-        <h2 id="lessonLabel" style="display: none;">Lesson:</h2>
         
 
         <!-- Attributes Part -->
@@ -3817,6 +3838,96 @@
             <button class="tn-btn" onclick="onclicknawrong(this.id)">Try again</button>
         </div>
         <!--<a class="submit-btn">Submit</a>-->
+
+        <!--Lesson Part-->
+        <div id="AttributeTutors" style="display: none;">
+            <h4>AttributeTutors</h4>
+        </div>
+
+        <div id="HeadingTutors" style="display: none;">
+            <h4>HeadingTutors</h4>
+        </div>
+
+        <div id="ParagraphTutors" style="display: none;">
+            <h4>ParagraphTutors</h4>
+        </div>
+
+        <div id="StyleTutors" style="display: none;">
+            <h4>StyleTutors</h4>
+        </div>
+
+        <div id="FormattingTutors" style="display: none;">
+            <h4>FormattingTutors</h4>
+        </div>
+
+        <div id="QuotationTutors" style="display: none;">
+            <h4>QuotationTutors</h4>
+        </div>
+
+        <div id="CommentTutors" style="display: none;">
+            <h4>CommentTutors</h4>
+        </div>
+
+        <div id="CSSTutors" style="display: none;">
+            <h4>CSSTutors</h4>
+        </div>
+
+        <div id="LinkTutors" style="display: none;">
+            <h4>LinkTutors</h4>
+        </div>
+
+        <div id="ImagesTutors" style="display: none;">
+            <h4>ImagesTutors</h4>
+        </div>
+
+        <div id="TableTutors" style="display: none;">
+            <h4>TableTutors</h4>
+        </div>
+
+        <div id="ListTutors" style="display: none;">
+            <h4>ListTutors</h4>
+        </div>
+
+        <div id="ClassesTutors" style="display: none;">
+            <h4>ClassesTutors</h4>
+        </div>
+
+        <div id="idTutors" style="display: none;">
+            <h4>idTutors</h4>
+        </div>
+
+        <div id="IframeTutors" style="display: none;">
+            <h4>IframeTutors</h4>
+        </div>
+
+        <div id="ScriptTutors" style="display: none;">
+            <h4>ScriptTutors</h4>
+        </div>
+
+        <div id="ComputercodeTutors" style="display: none;">
+            <h4>ComputercodeTutors</h4>
+        </div>
+
+        <div id="FormTutors" style="display: none;">
+            <h4>FormTutors</h4>
+        </div>
+
+        <div id="FormAttriTutors" style="display: none;">
+            <h4>FormAttriTutors</h4>
+        </div>
+
+        <div id="FormElemTutors" style="display: none;">
+            <h4>FormElemTutors</h4>
+        </div>
+
+        <div id="InputTypeTutors" style="display: none;">
+            <h4>InputTypeTutors</h4>
+        </div>
+
+        <div id="InputAttriTutors" style="display: none;">
+            <h4>InputAttriTutors </h4>
+        </div>
+        
     </div>
     <script src="Activity_Script.js" class="submit-btns" type="text/javascript"></script>
     
