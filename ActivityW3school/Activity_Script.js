@@ -188,7 +188,7 @@ function reply_click(clicked_id){
     previousArray.splice(0,1 ,clicked_id+"s" );
 }
 
-function onclickna(){
+function onclickna(){ // akin toh ver
     //Attributes
     if (exercisesId_array.includes("q1")){
       remove();
@@ -227,12 +227,12 @@ function onclickna(){
     }
 }
 
-function onclicknawrong(){
+function onclicknawrong(){ // sayo ver
     remove();
     document.getElementById("Wrong").style.display = "none";
     //Attributes
-    if (previousArray.includes("Attribute1s")){
-      document.getElementById("input1").value = "";
+    if (previousArray.includes("Attribute1s")){     //Id ng conatiner yung may mga s sa dulo
+      document.getElementById("input1").value = ""; //Input Id dito
       document.getElementById(previousArray[0]).style.display = "block";
     }
     if (previousArray.includes("Attribute2s")){
@@ -666,7 +666,6 @@ function progress(exercisesId){
 function changetolessons(){
   document.getElementById("exerciseLabel").textContent = "Lessons"
 }
-
 function changetoexercises(){
   document.getElementById("exerciseLabel").textContent = "Exercise"
 }
