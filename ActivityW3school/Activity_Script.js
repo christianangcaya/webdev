@@ -949,4 +949,5 @@ function changetolessons(){
 function changetoexercises(){
   document.getElementById("exerciseLabel").textContent = "Exercise"
 }
-
+function trashbin(){
+}
