@@ -3912,7 +3912,7 @@
         </div>
 
         <div id="LinkTutors" style="display: none;">
-            <h4>LinkTutors</h4>
+            <h4>LinksTutors</h4>
         </div>
 
         <div id="ImagesTutors" style="display: none;">
@@ -3920,15 +3920,123 @@
         </div>
 
         <div id="TableTutors" style="display: none;">
-            <h4>TableTutors</h4>
+            <h1>Table in HTML</h1>
+            <h3>
+            <p>A table is a representation of data arranged in rows and columns. Really, it's more like a spreadsheet. In HTML, with the help of tables, you can arrange data like images, text, links and so on into rows and columns of cells.</p>
+            <p>The use of tables in the web has become more popular recently because of the amazing HTML table tags that make it easier to create and design them.</p>
+            <p>To create a table in HTML you will need to use tags. The most important one is the &lt;table&gt; tag which is the main container of the table. It shows where the table will begin and where it ends.</p>
+            </h3>
+            <h2>Common HTML table tags</h2>
+            <p>Other tags include:</p>
+            <ul>
+                <li>&lt;tr&gt; - represents rows</li>
+                <li>&lt;td&gt; - used to create data cells</li>
+                <li>&lt;th&gt; - used to add table headings</li>
+                <li>&lt;caption&gt; - used to insert captions</li>
+                <li>&lt;thead&gt; - adds a separate header to the table</li>
+                <li>&lt;tbody&gt; - shows the main body of the table</li>
+                <li>&lt;tfoot&gt; - creates a separate footer for the table</li>
+            </ul>
+            <h2>How to Add a Table Heading in HTML</h2>
+            <p>The <th> is used to add headings to tables. In basic designs the table heading will always take the top row, meaning we will have the &lt;th&gt; declared in our first table row followed by the actual data in the table. By default the text passed in the Heading is centered and Bold.</p>
+            <h2>How to Add a Caption to a Table</h2>
+            <p>The main use of adding a caption to table is to provide a description about the data represented in the table. The caption can either be placed at the top of the table or the bottom and by default it will always be centered.</p>
+            <h2>How to Use the Scope Attribute in HTML Tables</h2>
+            <p>The main purpose of the scope element is to show the target data so that the user does not have to rely on assumptions. The attribute is declared in the header cell &lt;th&gt;, and it takes the values col, row, colgroup and rowgroup.</p>
+            <p>The values col and row indicated that the header cell is providing inforamation for either the rows or columns respectively.</p>
+            <h2>How to Use Cell Spanning in an HTML Table</h2>    
+            <p>Perhaps you have come across cells that stretch across two or more columns or rows in a table. That's called cell spanning.</p>
+            <p>The same features can be applied in an HTML table by using two cell attributes, colspan for horizontal spanning and rowspan for vertical spanning. The two attributes are assigned numbers greater that zero which shows the number of cells you wish to span.</p>
+            <h2>How to Add a Table Header, Body, & Footer in HTML Tables</h2>
+            <p>In a table they are divided by using attributes namely:</p>
+            <ul>
+                <li>&lt;thead&gt; - provides a separate header for the table</li>
+                <li>&lt;tbody&gt; - contains main content of the table</li>
+                <li>&lt;tfoot&gt; - creates a separate footer for the table</li>
+            </ul>
+            <h2>When to Use a Table</h2>
+            <ul>
+                <li>You can use tables when you want to compare and contrast data with shared characteristics like the differences between A and B or scores of team X to those of Y.</li>
+                <li>You can also use one if you want to give an overview of numerical data. A good example of this is when you are trying to represent marks of students or even the scores of teams like the EPL table.</li>
+                <li>And a table can help readers quickly find specific information laid out in a clear way. For example if you are going through a long list of name a table can be used to sub devide the list which make it easy for readers.</li>
+            </ul>
         </div>
 
         <div id="ListTutors" style="display: none;">
-            <h4>ListTutors</h4>
+            <h1>HTML Lists</h1>
+            <h3><p>The  list element is used to group a set of related items. The &lt;li&gt; tag is used if you want to enter the contents in the listed order.</p></h3>
+            <p>There are three types of lists:</p>
+            <ul>
+                <li>Unordered lists</li>
+                <li>Ordered lists</li>
+                <li>Description lists</li>
+            </ul>
+            <h2>HTML Unordered Lists</h2>
+            <p>An unordered list created using the &lt;ul&gt; element, and each list item starts with the &lt;li&gt; element. The list items in unordered lists are marked with bullets. </p>
+            <h2>Ordered Lists</h2>
+            <p>The ordered list is used to represent data in a list for which the order of items has significance.</p>
+            <p>The &lt;ol&gt; tag is used to create ordered lists. Similar to unordered lists, each item in the ordered list must be a &lt;li&gt; tag.</p>
+            <h2>Description Lists</h2>
+            <p>The HTML description list is used to represent data in the name-value form. We use the &lt;dl&gt; tag to create a definition list and each item of the description list has two elements:</p>
+            <ul>
+                <li><b>term/title</b>-represented by the &lt;dt&gt; tag</li>
+                <li><b>description of the term</b>-represented by the &lt;dd&gt;tag</li>
+            </ul>
+            <h2>Tags used in HTML lists</h2>
+            <style>
+                table, th, td {
+                    border:1px solid black;
+                }
+            </style>
+            <body>
+            <table style="width:100%">
+                <tr>
+                    <th>Tag</th>
+                    <th>Explanation</th>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Defines an ordered list.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Defines an unordered list.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dl&gt;</td>
+                    <td>Defines an description list.</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>Defines a list item in ordered or unordered lists.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dt&gt;</td>
+                    <td>Defines a term in a description list</td>
+                </tr>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td>Defines the description of a term in the description list.</td>
+                </tr>
+            </table>
+            </body>
         </div>
 
         <div id="ClassesTutors" style="display: none;">
-            <h4>ClassesTutors</h4>
+            <h1>HTML Class</h1>
+            <h3><p>An HTML class is an attribute that can be added to an HTML element to give it a specific class name. Class in HTML is a reference which you use to apply some CSS properties to HTML elements. With class, you can define the style for class with a dot operator, and then you can just add the class whenever you want to apply that style. In this tutorial, you will learn about HTML Class and its application. </p>
+            <p>The class attribute allows CSS and javascript to access the HTML code. In the above example, element &lt;h2&gt; with class name logo is styled with .logo selector.</p></h3>
+            <h2>Multiple Class in HTML</h2>
+            <p>You can use multiple class names (more than one) with HTML elements. These class names must be separated by a space.</p>
+            <h2>Same Class with Different tag</h2>
+            <p>You can use the same class name with different tags like &lt;h2&gt; and &lt;p&gt; etc. to share the same style.</p>
+            <h2>Class with Javascript in HTML</h2>
+            <p>The class attribute allows javascript to access the element via class selectors or getElementByClassName API.</p>
+            <h3>Things to Note</h3>
+            <ol>
+                <li>Class names are case-sensitive. Therefore, animal and Animal are two different class names.</li>
+                <li>You cannot use a space in a class name. If you use a space in a class name, it will be treated as two separate class names. This will not apply styles to elements with the class my class. Instead, it will apply styles to elements with the class my and the class class (which are treated as two separate class names because of the space between them).</li>
+            </ol>
         </div>
 
         <div id="idTutors" style="display: none;">
