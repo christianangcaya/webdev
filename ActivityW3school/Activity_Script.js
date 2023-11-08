@@ -810,7 +810,70 @@ function onclickna(){ // akin toh ver
       document.getElementById("InputType1s").style.display = "block";
       previousArray.splice(0,1 ,"InputType1s");
       document.getElementById("correct").style.display = "none";
-    }                                              
+    }
+    //InputTypes
+    if (exercisesId_array.includes("ITq1")){
+      remove();
+      document.getElementById("InputType2s").style.display = "block";
+      previousArray.splice(0,1 ,"InputType2s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ITq2")){
+      remove();
+      document.getElementById("InputType3s").style.display = "block";
+      previousArray.splice(0,1 ,"InputType3s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ITq3")){
+      remove();
+      document.getElementById("InputType4s").style.display = "block";
+      previousArray.splice(0,1 ,"InputType4s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ITq4")){
+      remove();
+      document.getElementById("InputType5s").style.display = "block";
+      previousArray.splice(0,1 ,"InputType5s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("ITq5")){
+      remove();
+      document.getElementById("InputAttri1s").style.display = "block";
+      previousArray.splice(0,1 ,"InputAttri1s");
+      document.getElementById("correct").style.display = "none";
+    }
+    //InpuAttris
+    if (exercisesId_array.includes("IAq1")){
+      remove();
+      document.getElementById("InputAttri2s").style.display = "block";
+      previousArray.splice(0,1 ,"InputAttri2s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("IAq2")){
+      remove();
+      document.getElementById("InputAttri3s").style.display = "block";
+      previousArray.splice(0,1 ,"InputAttri3s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("IAq3")){
+      remove();
+      document.getElementById("InputAttri4s").style.display = "block";
+      previousArray.splice(0,1 ,"InputAttri4s");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("IAq4")){
+      remove();
+      document.getElementById("InputAttri5s").style.display = "block";
+      previousArray.splice(0,1 ,"InputAttris");
+      document.getElementById("correct").style.display = "none";
+    }
+    if (exercisesId_array.includes("IAq5")){
+      remove();
+      document.getElementById("Attribute1s").style.display = "block";
+      previousArray.splice(0,1 ,"Attribute1s");
+      document.getElementById("correct").style.display = "none";
+    }
+                                                  
 }
 
 function onclicknawrong(){ // sayo ver
