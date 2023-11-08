@@ -3896,27 +3896,57 @@
             <h3>Here are some key points about CSS:</h3>
 
             <ol>
-                <li><b>Separation of Content and Presentation:</b></li>
+                <li>Separation of Content and Presentation:</li>
                 <dd>CSS separates the content of a web page (HTML) from its visual presentation. This separation makes it easier to maintain and update websites since changes to the design can be made in the CSS without altering the underlying HTML content.</dd><br>
-                <li><b>Selectors and Properties:</b></li>
+                <li>Selectors and Properties:</li>
                 <dd>CSS uses selectors to target HTML elements and properties to define how those elements should be styled. For example, you can use a selector to target all the &ltp&gt elements in your HTML document and specify properties like font size, color, and margin to control their appearance.</dd><br>
-                <li><b>Cascading:</b></li>
+                <li>Cascading:</li>
                 <dd>The term "cascading" in CSS refers to the order of precedence when multiple styles are applied to the same element. There are three levels of CSS styles: user agent styles (default styles provided by the browser), external styles (defined in separate CSS files), and inline styles (defined directly in the HTML document). If conflicting styles are defined at different levels, the cascade rules determine which style takes precedence.</dd><br>
-                <li><b>External CSS</b></li>
+                <li>External CSS</li>
                 <dd> It is common practice to define CSS styles in external CSS files with a .css extension. These files can be linked to HTML documents using the &ltlink&gt element within the document's &lthead&gt section. This approach allows for consistent styling across multiple web pages.</dd><br>
-                <li><b>Inline CSS:</b></li>
+                <li>Inline CSS:</li>
                 <dd>You can also define CSS styles inline within HTML elements using the style attribute. Inline styles are applied directly to a specific element and take precedence over external styles.</dd><br>
-                <li><b>Internal CSS:</b></li>
+                <li>Internal CSS:</li>
                 <dd>CSS styles can be included directly within an HTML document using the &ltstyle&gt element within the document's &lthead&gt section. Internal CSS styles apply to the HTML document in which they are defined.</dd><br>
             </ol>
         </div>
 
         <div id="LinkTutors" style="display: none;">
-            <h4>LinksTutors</h4>
+            <h1>HTML Link</h1>
+            <h2>Link</h2>
+            <p>Links are essential components of web pages that allow users to navigate between different web pages or resources. In HTML, links are defined using the &lt;a&gt; tag, which stands for "anchor". The &lt;a&gt; tag has two main attributes: href and content. The href attribute specifies the URL of the web page or resource to which the link should point, while the content attribute specifies the text that should be displayed as the link.</p>
+            <h2>Link Colors</h2>
+            <p>By default, HTML links are displayed in blue color with underlined text. However, you can customize the color and appearance of links using CSS. The following CSS properties can be used to style links:</p>
+                <ul>
+                    <li>color: Sets the color of the link text.</li>
+                    <li>text-decoration: Removes the default underline from links.</li>
+                    <li>font-weight: Sets the boldness of the link text.</li>
+                    <li>font-size: Sets the size of the link text.</li>
+                </ul>
+            
+            <h2>Link Bookmarks</h2>
+            <p>Link bookmarks, also known as anchors, are a way to create specific locations within a web page. You can create a bookmark by adding an id attribute to a specific element within the page, and then linking to that id using the href attribute of an &lt;a&gt; tag.</p>
         </div>
 
         <div id="ImagesTutors" style="display: none;">
-            <h4>ImagesTutors</h4>
+            <h1>HTML Images</h1>
+            <p>Images are a powerful tool for enhancing the visual appeal and conveying information on web pages. HTML provides several ways to embed images and control their appearance. In this lecture, we will explore the various methods of incorporating images into HTML documents.</p>
+            <h2>Image</h2>
+            <p>The most common way to insert an image into an HTML page is using the &lt;img&gt; tag. The &lt;img&gt; tag is an empty element, meaning it does not have a closing tag. It contains several attributes that control the image's display and behavior.</p>
+            <ol>
+                <li>Image Source</li>
+                <dd>The src attribute specifies the URL of the image file to be displayed. The URL can be a relative path to the image file within the website's directory structure or an absolute URL pointing to an image hosted on another server.</dd>
+                <li>Image Alternative Text</li>
+                <dd>The alt attribute provides alternative text for the image, which is displayed if the image cannot be loaded or for users who are blind or have visual impairments. The alternative text should be a concise description of the image's content.</dd>
+                <li>Image Dimensions</li>
+                <dd>The width and height attributes specify the width and height of the image in pixels. These attributes help ensure that the page layout remains consistent while the image is loading.</dd>
+                <li>Image Alignment</li>
+                <dd>The align attribute controls how the image is aligned with the surrounding text. The possible values are left, right, center, and top.</dd>
+            </ol>
+            <h2>Background Image</h2>
+            <p>A background image can be applied to an HTML element using the background-image CSS property. The property takes a URL as its value, specifying the image file to be used as the background. Additional CSS properties like background-position, background-size, and background-repeat control how the image is positioned, scaled, and repeated within the element's background.</p>
+            <h2>Picture Element</h2>
+            <p>The &lt;picture&gt; element is a newer HTML element that provides more control over image selection based on the user's browser and device capabilities. The &lt;picture&gt; element contains &lt;source&gt; subelements, each specifying an image source for a particular set of media conditions. The browser chooses the first &lt;source&gt; subelement that matches the current media conditions and displays the corresponding </p>
         </div>
 
         <div id="TableTutors" style="display: none;">
@@ -4048,13 +4078,66 @@
             <h4>ScriptTutors</h4>
         </div>
         <div id="ComputercodeTutors" style="display: none;">
-            <h4>ComputercodeTutors</h4>
+            <h1>HTML Computer Code</h1>
+            <h3>
+            <p>The HTML &lt;code&gt; element is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font, italic, and preformative text.</p>
+            </h3>
+            <h2>The common use tags in Computer Code.</h2>
+            <ul>
+                <li>The&lt;kbd&gt; - element defines keyboard input.</li>
+                <li>The&lt;samp&gt; - element defines sample output from a computer program.</li>
+                <li>The&lt;code&gt; - element defines a piece of computer code.</li>
+                <li>The&lt;var&gt; - element defines a variable in programming or in a mathematical expression, the content it displayed is in italic.</li>
+                <li>The&lt;pre&gt; - element defines preformatted text.</li>
+            </ul>
         </div>
         <div id="FormTutors" style="display: none;">
-            <h4>FormTutors</h4>
+            <h1>HTML Form</h1>
+            <h3>
+            <p>The HTML Form function is to collect user input data. The data that the user is most often directly sent to a server for processing.
+                The &lt;form&gt; element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+            </p>
+            </h3>
+            <h2>The common use tags in Forms.</h2>
+            <p>The HTML &lt;input&gt; element is the most used form element. An &lt;input&gt; element can be displayed in many ways, depending on the type attribute. Here are some examples: </p>
+            <ul>
+                <li>&lt;input type="text"&gt; Displays a single-line text input field.</li>
+                <li>&lt;input type="radio"&gt; Displays a radio button (for selecting one of many choices).</li>
+                <li>&lt;input type="checkbox"&gt; Displays a checkbox (for selecting zero or more of many choices).</li>
+                <li>&lt;input type="submit"&gt; Displays a submit button (for submitting the form)</li>
+                <li>&lt;input type="button"&gt; Displays a clickable button.</li>
+            </ul>
         </div>
+
         <div id="FormAttriTutors" style="display: none;">
-            <h4>FormAttriTutors</h4>
+            <h1>HTML Form Attributes</h1>
+            <h3>
+            <p>This chapter describes the different attributes for the HTML &lt;form&gt; element.
+            </p>
+            </h3>
+            <h2>The Action Attribute &lt;form action=""&gt;</h2>
+            <p>The action attribute defines the action to be performed when the form is submitted.
+                Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+            <h2>The Target Attribute &lt;form action="" target="_blank"&gt;</h2>
+            <p>The target attribute specifies where to display the response that is received after submitting the form.</p>
+            <h2>The target attribute can have one of the following values:</h2>
+            <ul>
+                <li>_blank	The response is displayed in a new window or tab.</li>
+                <li>_self	The response is displayed in the current window.</li>
+                <li>_parent	The response is displayed in the parent frame.</li>
+                <li>_top	The response is displayed in the full body of the window.</li>
+                <li>framename	The response is displayed in a named iframe.</li>
+            </ul>
+            <h2>The Method Attribute &lt;form action="" method="get"&gt;</h2>
+            <p>The method attribute specifies the HTTP method to be used when submitting the form data.
+                The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+                The default HTTP method when submitting form data is GET. </p>
+            <h2>The Autocomplete Attribute &lt;form action="" autocomplete="on"&gt;</h2>
+            <p>The autocomplete attribute specifies whether a form should have autocomplete on or off.
+                When autocomplete is on, the browser automatically complete values based on values that the user has entered before.</p>
+            <h2>The Novalidate Attribute &lt;form action="" novalidate&gt;</h2>
+            <p>The novalidate attribute is a boolean attribute.
+                When present, it specifies that the form-data (input) should not be validated when submitted.</p>
         </div>
 
         <div id="FormElemTutors" style="display: none;">
