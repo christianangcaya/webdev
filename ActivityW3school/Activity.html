@@ -1424,14 +1424,14 @@
                 <h5>Image Exercise 1: <br>Set a border of 5 pixels around the image and set the color of the border to yellow.</h5>
             </div>
             <div class="code-container">
-                <h5 id="ansimage1" ansValue="border: 5px yellow">Code:
+                <h5 id="ansimage1" ansValue="border: 5px solid yellow">Code:
                     <br>
-                    &lt;img src="cat.jpeg" style="<input id="userinput001" maxlength="18" style="width: 110px;">"&gt;
+                    &lt;img src="cat.jpeg" style="<input id="userinput001" maxlength="23" style="width: 140px;">";&gt;
                 </h5> 
             </div>
             <div class="op-container">
                 <h5>Output:</h5>
-                <img src="cat.jpeg" style="border: 5px yellow;">
+                <img src="cat.jpeg" style="border: 5px solid yellow;">
             </div>
             <a class="submit-btn" onclick="checkAnswer('ansimage1' , 'userinput001','Image1')">Submit</a>
         </div>
@@ -3175,7 +3175,7 @@
                 <h5>Create a contact information form that will be submitted into specific file. Use submit button as input type with a value of submit.</h5>
             </div>
             <div class="code-container">
-                <h5 id="Fform5" ansValue="input type='submit value='Submit'">Code:
+                <h5 id="Fform5" ansValue='input type="submit" value="Submit"'>Code:
                     <br>
                     &lt;html&gt;
                     <br>
@@ -3326,9 +3326,9 @@
                     <p>This information will help us to provide you efficient service.</p>
                     <form action="process_form.php" method="get">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name"><br><br>
+                        <input type="text" id="name" name="name" value="Paul"><br><br>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email"><br><br>
+                        <input type="email" id="email" name="email" value="fullofhope@gmail.com"><br><br>
                         <input type="submit" value="Submit">
                     </form>
                     </body>
@@ -3377,7 +3377,7 @@
             </div>
             <div class="code-container">
                 <h5 id="FAttr4" ansValue="novalidate">Code:
-                    &lt;form action="/action_page.php" <input id = "Fatt4" style="width:50px;" name="attribute_info">="on"&gt;
+                    &lt;form action="/action_page.php" <input id = "Fatt4" style="width:50px;" name="attribute_info">&gt;
                     &lt;label for="Uname"&gt;Username:&lt;/label&gt;
                     &lt;input type="text" id="Uname" name="Uname"&gt;<br><br>
                     &lt;input type="submit"&gt;
@@ -3421,7 +3421,7 @@
                     <body>
                     <form action="/action_page.php" target="_self">
                     <label for="fulname">Full name:</label>
-                    <input type="text" id="fulname" name="fulname"><br><br>
+                    <input type="text" id="fulname" name="fulname" value="Sophie Serene"><br><br>
                     <input type="submit">
                     </form>
                     </body>
@@ -3844,14 +3844,14 @@
 
         <div class="cw-container" id="correct" style="display: none;">
             <h5>
-                Correct!!
+                Your answer is right!
             </h5>
             <button class="tn-btn" onclick="onclickna()">next</button>
         </div>
         
         <div class="cw-container" id="Wrong" style="display: none;">
             <h5>
-                Wrong!!
+                You've got the wrong answer!
             </h5>
             <button class="tn-btn" onclick="onclicknawrong(this.id)">Try again</button>
         </div>
