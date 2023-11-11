@@ -51,6 +51,7 @@ body {
   font-size: 20px; /* Increased text to enable scrolling */
   /*padding: 10px;*/
   transition: margin-left.5s;
+  color: #021024;
 
 
 }
@@ -98,9 +99,12 @@ body {
     transition: all .50s ease;
     text-decoration: none;
 }
+
 .outer-container{
-  border-radius: 24px; 
-  background-color: #7DA0CA;/*color nung outer continer*/
+  border: 2px solid;
+  border-color: #1e4575;
+  border-radius: 20px; 
+  background-color: #033d67;/*color nung outer continer*/
   height: 600px;
   width: 1100px;
   padding: 10px 10px 10px 10px;
@@ -108,31 +112,38 @@ body {
 }
 .q-container{ 
   border-radius: 10px;
-  background-color: #a7dcfb;/*color nung question container yung may laman question*/
+  background-color: #add8e6;/*color nung question container yung may laman question*/
   width: 95%;
-  height: 50px;
+  height: 70px;
   margin: auto;
   text-align: center;
+  border: 3px solid;
+  border-color: #1e4575;
+  padding: 1%;
   
 }
 .code-container{
+  border: 2px solid;
+  border-color: #1e4575;
   float: left;
-  width: 45%;
-  height: 77%;
-  background-color: #C1E8FF; /*color ng code conatiner yung may laman code*/
+  width: 47%;
+  height: 73%;
+  background-color: #add8e6; /*color ng code conatiner yung may laman code*/
   margin-top: 10px;
-  margin-left: 29px;
+  margin-left: 15px;
   border-radius: 10px;
   overflow-x: hidden;
-  padding: 10px;
+  padding: 1%;
 }
 .op-container{
+  border: 2px solid;
+  border-color: #1e4575;
   float: right;
   width: 45%;
-  height: 77%;
-  background-color: #C1E8FF; /*color ng output conatiner yung may laman output*/
+  height: 73%;
+  background-color: #add8e6; /*color ng output conatiner yung may laman output*/
   margin-top: 10px;
-  margin-right: 29px;
+  margin-right: 15px;
   border-radius: 10px;
   overflow-x: hidden;
   padding: 10px;
@@ -147,7 +158,7 @@ body {
   background-color: #06234b;
   color: #f1f1f1;
   cursor: pointer;
-  margin-left: 480px;
+  margin-left: 490px;
 
 }
 
@@ -163,13 +174,13 @@ body {
   cursor: pointer;
 }
 .cw-container{
-  border-radius: 24px; 
-  background-color: #7DA0CA;/*color nung outer continer*/
+  border-radius: 25px; 
+  background-color: aliceblue;/*color nung outer continer*/
   height: 600px;
   width: 1100px;
   padding: 10px 10px 10px 10px;
-  margin-bottom: 20px;
-  font-size: 100px;
+  margin-bottom: 40px;
+  font-size: 85px;
   text-align: center;
 }
 .tn-btn{/*wag pansinin sa show answer toh*/
@@ -178,12 +189,17 @@ body {
   border-radius: 15px;
   padding: 10px 40px;
   text-decoration: none;
-  font-weight: 100;
-  background-color: #021024;
-  color: #f1f1f1;
+  font-weight: 500;
+  background-color: #06234b;
+  color: #fafafa;
   cursor: pointer;
 }
 
 .class-ito{
   color: rgb(174, 19, 138);
+}
+
+.attribute-tutors{
+  background-color: #7DA0CA;/*color nung outer continer*/
+
 }
